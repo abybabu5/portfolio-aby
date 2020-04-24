@@ -3,7 +3,7 @@ import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 import ReactPlayer from "react-player";
 import "./Project.css";
 import {Link} from "react-router-dom";
-import {TiArrowBack} from "react-icons/all";
+import {FaLink, TiArrowBack} from "react-icons/all";
 
 
 class ProjectDemo extends Component {
@@ -60,7 +60,8 @@ class ProjectDemo extends Component {
                                                             <a className="text-decoration-none"
                                                                href="https://github.com/abybabu5/spotify-deezer-aby"
                                                                target="_blank">
-                                                                <div className="text-decoration">Repo URL</div>
+                                                                <div className="text-decoration">Repo URL <span
+                                                                    className="url-span"><FaLink/></span></div>
                                                             </a></div>
                                                     </button>
                                                 </div>
@@ -71,7 +72,8 @@ class ProjectDemo extends Component {
                                                         <a className="text-decoration-none"
                                                            href="http://spotify-deezer-api-fe.herokuapp.com/"
                                                            target="_blank">
-                                                            <div className="text-decoration">Live URL</div>
+                                                            <div className="text-decoration">Live URL <span
+                                                                className="url-span"><FaLink/></span></div>
                                                         </a></div>
                                                 </button>
                                             </div>
@@ -80,7 +82,11 @@ class ProjectDemo extends Component {
                                 </div>
                                 <div className="container-bottom-project">
                                     <div className="go-back-projects">
-                                        <Link to="/projects"><div className="arrow-back"><TiArrowBack/></div>Go back to Projects</Link>
+                                        <Link to="/projects">
+                                            <div className="arrow-back"><TiArrowBack/>
+                                                <div className="go-back-project-text">Go back to Projects</div>
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

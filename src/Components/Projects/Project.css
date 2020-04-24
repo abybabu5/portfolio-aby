@@ -40,7 +40,7 @@
 .video-box {
     border-radius: 50px;
     margin-right: 30px;
-    width: 100% !important;
+    width: 80% !important;
 }
 
 .title-project {
@@ -106,8 +106,15 @@
     flex: 1 1 auto;
 }
 .arrow-back {
-    display: inline;
+    display: flex;
+    justify-items: center;
     font-size: 25px;
+    margin-top: 15px;
+
+}
+.go-back-project-text {
+    font-size: 18px;
+
 }
 .url-links {
     margin-bottom: 5px;
@@ -118,17 +125,18 @@
     border: 2px solid #b72417;
     font-weight: bold;
     background-color: antiquewhite;
-    text-decoration: none !important;
+
 
 }
 
 .url2 {
     padding: 10px;
     border-radius: 10px;
-    width: 82px;
+    width: 100px;
     border: 2px solid #b72417;
     font-weight: bold;
     background-color: antiquewhite;
+
 }
 .url1:hover {
     background-color: #34b717;
@@ -141,4 +149,8 @@
 }
 .text-decoration-none {
     text-decoration: none;
+
+}
+.url-span{
+    margin-left: 2px;
 }
