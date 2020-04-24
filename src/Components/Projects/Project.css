@@ -1,0 +1,144 @@
+.textFont-demo {
+    font-family: 'Lato', sans-serif;
+    background-color: antiquewhite;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #34b717;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-center {
+    margin: auto;
+    justify-content: center;
+
+}
+
+.row {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.row, .container {
+    display: flex;
+    background-color: transparent;
+}
+.container {
+    bottom: 25px;
+}
+.container-card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;
+}
+
+.top-margin {
+    margin-top: 50px !important;
+}
+
+.video-box {
+    border-radius: 50px;
+    margin-right: 30px;
+    width: 100% !important;
+}
+
+.title-project {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.title-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.video-container {
+    display: flex;
+}
+
+.paragraphText {
+    padding-top: 30px;
+    color: black;
+    font-size: 13px;
+
+}
+.project-management {
+    padding-bottom: 5px;
+}
+.project-management li {
+    display: flex;
+
+}
+.project-management li::before {
+    list-style: disc!important;
+    content: "•";
+    color: #b72417;
+    width: 1em;
+
+
+
+}
+.project-management li::after {
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.tools-div {
+
+}
+.container-bottom-project {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.go-back-projects {
+    flex: 1 1 auto;
+}
+.arrow-back {
+    display: inline;
+    font-size: 25px;
+}
+.url-links {
+    margin-bottom: 5px;
+}
+.url1 {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #b72417;
+    font-weight: bold;
+    background-color: antiquewhite;
+    text-decoration: none !important;
+
+}
+
+.url2 {
+    padding: 10px;
+    border-radius: 10px;
+    width: 82px;
+    border: 2px solid #b72417;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+.url1:hover {
+    background-color: #34b717;
+}
+.url2:hover {
+    background-color: #34b717;
+}
+.url1 a {
+    text-decoration: none;
+}
+.text-decoration-none {
+    text-decoration: none;
+}

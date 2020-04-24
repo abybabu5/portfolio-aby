@@ -1,0 +1,47 @@
+
+.nav-div-container {
+    display: flex;
+    padding-top: 15px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.nav-cv {
+    position: relative;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 3px;
+
+}
+
+
+.nav-cv:hover {
+    border-bottom: 3px solid chartreuse;
+    text-decoration: none;
+    margin-bottom: 5px;
+    top: -2px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.nav-div {
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.header-title {
+    color: rgba(239, 234, 234, 0.97);
+    font-size: 34px;
+    margin-left: 35px;
+    color: antiquewhite;
+    background-color: transparent;
+    font-weight: bold;
+
+}
+
