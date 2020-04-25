@@ -6,6 +6,8 @@
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav-cv {
@@ -20,7 +22,6 @@
 
 
 .nav-cv:hover {
-    border-bottom: 3px solid chartreuse;
     text-decoration: none;
     margin-bottom: 5px;
     top: -2px;
@@ -30,18 +31,54 @@
     flex-grow: 1;
 }
 
-.nav-div {
+.nav-div-title {
     margin-right: 40px;
     margin-left: 10px;
 }
-
+.spacer-title {
+    width: 35px;
+    overflow: auto;
+}
 .header-title {
-    color: rgba(239, 234, 234, 0.97);
     font-size: 34px;
-    margin-left: 35px;
     color: antiquewhite;
     background-color: transparent;
     font-weight: bold;
 
 }
+.header-title:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 
+}
+
+
+
+.nav-div a {
+    color: chartreuse;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.nav-div a:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: chartreuse;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.nav-div a:hover:after {
+    width: 100%;
+    left: 0;
+}

@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/images/working-pattern-internet-abstract-1089438.jpg")!important;
+  background-size: cover!important;
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
 }
 
 * {

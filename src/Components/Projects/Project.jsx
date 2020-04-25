@@ -10,7 +10,6 @@ class Project extends Component {
     render() {
         return (
             <div className="bootstrap-iso">
-                <img src={img} id="bg" alt="landing-image"/>
                 <div className="container">
                     <div className="row content-center align-items-center">
                         <div className="container-fluid d-flex justify-content-center">

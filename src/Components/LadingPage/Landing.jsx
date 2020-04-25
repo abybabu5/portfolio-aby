@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 import {FaLinkedinIn, FaGithub, FaTwitter, FaYoutube} from 'react-icons/fa';
 /// import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Landing.css";
@@ -8,7 +7,6 @@ class Landing extends Component {
     render() {
         return (
             <div>
-                <img src={img} id="bg" alt="landing-image"/>
                 <div className="landing-grid">
                     <div>
                         <img

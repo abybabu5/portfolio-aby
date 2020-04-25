@@ -10,14 +10,12 @@ import {
     FiGlobe, GiPlantsAndAnimals, MdCardTravel,
     MdEmail,Faba
 } from "react-icons/all";
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 
 
 class CV extends Component {
     render() {
         return (
             <div className="main-cv-div">
-                <img src={img} id="bg" alt="landing-image"/>
                 <div className="container">
                 <div className="resume">
                     <div className="resume_left">
