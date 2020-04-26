@@ -1,6 +1,7 @@
 
 .card-body {
-    padding: 3rem 0;
+    padding-bottom: 3rem;
+    /*padding: 3rem 0;*/
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -42,17 +43,22 @@
     padding: 10px;
     display: flex;
     align-items: center;
-
 }
 
 .container-card {
     box-shadow: 2px 2px 2px #34b717;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+    height: 350px;
+}
+.container-card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;
 }
 
-
-
+.container-card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;
+}
 .btn-project {
     border-radius: 10px;
     padding: 10px;
@@ -60,6 +66,8 @@
     border: 2px solid #b72417;
     font-weight: bolder;
     margin-top: 20px;
+
+
 
 }
 
@@ -73,7 +81,12 @@
 
 
 .go-to-the-project {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+
+}
+.link-decoration {
+    text-decoration: none;
+
 }
 
 

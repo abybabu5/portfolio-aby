@@ -23,6 +23,7 @@ class Intro extends Component {
                                     organisations
                                     in the
                                     field of Information Technology in Italy. <br/>
+                                    Recently I finished Full-Stack Development course from Strive School Berlin (Batch Oct19).
                                     Previously I had the opportunity to work in different projects as an Environmental Health and Safety specialist in Oil& gas, Manufacturing, Industrial Construction and Electromechanical engineering (Shah gas Abu Dhabi, Tram- Dubai, Reliance Industries PVT ltd India, and Sterlite Industries PVT ltd India)
                                     and after I moved to Italy I started to work in the IT field.
                                     I offer a broad application of skills across a diverse range of professional service

@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
 
 
-class ProjectDemo extends Component {
+class CapstoneDemo extends Component {
     render() {
         return <div>
             <div className="container">
@@ -13,17 +13,20 @@ class ProjectDemo extends Component {
                     <div className="col-9">
 
                         <div className="textFont-demo">
-                            <h1 className="title-heading">SPOTIFY MOCK-UP</h1>
+                            <h1 className="title-heading">IDEAL PLACE TO WORK</h1>
                             <div className="video-container">
                                 <div className="video-box">
-                                    <ReactPlayer url="https://www.youtube.com/watch?v=LxeDm_cSkHU"/>
+                                    {/*<ReactPlayer url="https://www.youtube.com/watch?v=LxeDm_cSkHU"/>*/}
 
-                                    {/*<div style={{position: "relative", paddingBottom: "56.25%", height: 0}}>*/}
-                                    {/*    <iframe src="https://www.loom.com/embed/22f0d3b5aa65489f87efb71d19f5610f"*/}
-                                    {/*            frameBorder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen*/}
-                                    {/*            style={{position: ",bsolute", top: 0, left: 0, width: "100%", height: "100%"}}>*/}
-                                    {/*                    </iframe>*/}
-                                    {/*</div>*/}
+                                    <div style={{position: "relative", paddingBottom: "56.25%", height: 0,}}>
+                                        <iframe src="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"
+                                                frameBorder="0"
+                                                webkitallowfullscreen
+                                                mozallowfullscreen
+                                                allowFullScreen
+                                                style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%",}}>
+                                        </iframe>
+                                    </div>
 
                                 </div>
                                 <div className="col-3 tools-div">
@@ -63,7 +66,7 @@ class ProjectDemo extends Component {
                                                 <button className="url1">
                                                     <div>
                                                         <a className="text-decoration-none"
-                                                           href="https://github.com/abybabu5/spotify-deezer-aby"
+                                                           href="https://github.com/abybabu5/Ideal-place-to-work-FE"
                                                            target="_blank">
                                                             <div className="text-decoration">Repo URL <span
                                                                 className="url-span"><FaLink/></span></div>
@@ -75,7 +78,7 @@ class ProjectDemo extends Component {
                                             <button className="url2">
                                                 <div>
                                                     <a className="text-decoration-none"
-                                                       href="http://spotify-deezer-api-fe.herokuapp.com/"
+                                                       href="http://idealplace-to-work-fe.herokuapp.com/"
                                                        target="_blank">
                                                         <div className="text-decoration">Live URL <span
                                                             className="url-span"><FaLink/></span></div>
@@ -105,4 +108,4 @@ class ProjectDemo extends Component {
     }
 }
 
-export default ProjectDemo;
+export default CapstoneDemo;

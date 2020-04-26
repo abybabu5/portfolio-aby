@@ -10,7 +10,10 @@
     sans-serif;
 }
 
+.main-container {
+    z-index: 100;
 
+}
 ::-webkit-scrollbar {
     height: 14px;
     width:  14px;
@@ -34,11 +37,13 @@
     height: auto;
     display: flex;
     margin: 50px auto;
+
 }
 
 .resume .resume_left {
     width: 280px;
     background: #0bb5f4;
+
 }
 
 .resume .resume_left .resume_profile {

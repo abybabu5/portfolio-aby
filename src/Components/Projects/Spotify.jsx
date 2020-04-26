@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./ProjectsPage.css";
 
 
-const ProjectsPage = (props) => {
+const Spotify = (props) => {
 
     return (
         <div>
@@ -12,7 +12,7 @@ const ProjectsPage = (props) => {
                     <div className="col-4 container-card">
                         <div className="card-container">
                             <img src={props.imgsrc} alt="coverImg1" className="card-img-top"
-                                 style={{width: '500px'}}/>
+                                 style={{width: '100%'}}/>
                         </div>
                         <div className="card-body">
                             <h4 className="card-title">{props.title}</h4>
@@ -22,7 +22,7 @@ const ProjectsPage = (props) => {
                             </div>
                             <hr/>
                             <div className="button-div">
-                                <button className="btn-project"><Link to="/projectDemo">
+                                <button className="btn-project"><Link to="/spotifyDemo" className="link-decoration">
                                     <div className="go-to-the-project">Go to the Project</div>
                                 </Link></button>
                             </div>
@@ -35,4 +35,4 @@ const ProjectsPage = (props) => {
     );
 }
 
-export default ProjectsPage;
+export default Spotify;
