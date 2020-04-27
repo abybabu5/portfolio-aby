@@ -3,15 +3,16 @@ import ReactPlayer from "react-player";
 import "./Project.css";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
+import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 
 
 class SpotifyDemo extends Component {
     render() {
         return <div>
             <div className="container">
+                <img src={img} id="bg" alt="landing-image"/>
                 <div className="row content-center align-items-center top-margin">
                     <div className="col-9">
-
                         <div className="textFont-demo">
                             <h1 className="title-heading">SPOTIFY MOCK-UP</h1>
                             <div className="video-container">

@@ -30,9 +30,10 @@
     border-radius: 10px;
     box-shadow: 0 0 3px 0 rgba(44, 219, 9, 0.5);
     padding: 15px;
-
-
 }
+/*.banner-text:hover {*/
+/*    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;*/
+/*}*/
 
 .banner-text h1 {
     padding-top: 0.5em;
@@ -93,4 +94,49 @@ color: #b72417 !important;
 
 .icon-svg {
     margin-top: 5px
+}
+
+@media (max-width: 800px) {
+
+ .avatar-img {
+     width:100px;
+
+
+ }
+    .banner-text {
+        width: 75%;
+        padding: 10px;
+
+    }
+    .banner-text h1 {
+        font-size: 20px;
+
+    }
+    .banner-text p {
+        font-size: 20px;
+
+    }
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 15px;
+
+    }
+
+    .landing-icons {
+        /*padding: 5px;*/
+        height: 30px;
+        width: 30px;
+        transition: width 1s;
+        margin-top: 15px;
+        margin-right: 4px;
+        align-items: center;
+    }
+.landing-grid {
+   text-align: center;
+    align-items: center;
+    align-content: center;
+}
 }

@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {FaLinkedinIn, FaGithub, FaTwitter, FaYoutube} from 'react-icons/fa';
 /// import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Landing.css";
+import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 
 class Landing extends Component {
     render() {
         return (
             <div>
                 <div className="landing-grid">
+                    <img src={img} id="bg" alt="landing-image"/>
                     <div>
                         <img
                             src= "https://media-exp1.licdn.com/dms/image/C5603AQFFoeaG2n8k2w/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=HcaNmjyl8Ym9Dbe-9hztPz34EdgR7_-eqRMIs6XBGeA"

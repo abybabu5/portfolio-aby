@@ -3,12 +3,14 @@ import ReactPlayer from "react-player";
 import "./Project.css";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
+import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
 
 
 class CapstoneDemo extends Component {
     render() {
         return <div>
             <div className="container">
+                <img src={img} id="bg" alt="landing-image"/>
                 <div className="row content-center align-items-center top-margin">
                     <div className="col-9">
 
