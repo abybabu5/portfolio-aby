@@ -73,7 +73,7 @@ class LinkedInDemo extends Component {
                                                         <a className="text-decoration-none"
                                                            href="https://github.com/abybabu5/FE_linkedIn_MongoDB/tree/OAuth_FB"
                                                            target="_blank">
-                                                            <div className="text-decoration">Repo URL FE <span
+                                                            <div className="text-decoration">Repo URL <span
                                                                 className="url-span"><FaLink/></span></div>
                                                         </a></div>
                                                 </button>
