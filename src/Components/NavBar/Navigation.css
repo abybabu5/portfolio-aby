@@ -46,24 +46,17 @@
 .header-title {
     font-size: 34px;
     color: antiquewhite;
-    background-color: transparent;
+    background-color: transparent!important;
     font-weight: bold;
 
 }
-
-.header-title:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
+.header-title:hover {
+    box-shadow: 5px 10px 20px 1px rgba(112, 108, 108, 0.84);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+    position: absolute;
+    background: none repeat scroll 0 0 transparent;
 
 }
-
 
 .nav-div a {
     color: chartreuse;
@@ -125,7 +118,8 @@ label {
     .nav-div a {
         display: block;
         border-bottom: 1px solid chartreuse;
-        margin: 0;
+        margin: 2px 4px 5px 8px;
+        padding: 3px 4px 4px 3px;
 
     }
 
@@ -190,9 +184,15 @@ label {
         padding: 8px;
         margin-left: 2px;
 
-
-
     }
+
+    .header-title:hover {
+        box-shadow: 5px 10px 20px 1px rgba(112, 108, 108, 0.84);
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        position: relative;
+        background: none repeat scroll 0 0 transparent;
+    }
+
     .hamburger {
         color: antiquewhite;
         margin-top: 5px;

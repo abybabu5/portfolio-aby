@@ -10,7 +10,7 @@ class LinkedInDemo extends Component {
         return <div>
             <div className="container">
                 <img src={img} id="bg" alt="landing-image"/>
-                <div className="row content-center align-items-center top-margin">
+                <div className="row content-center align-items-center top-margin linkedIn">
                     <div className="col-9">
 
                         <div className="textFont-demo">
@@ -54,9 +54,6 @@ class LinkedInDemo extends Component {
                                                     <div className="tool">ReactJS, Redux</div>
                                                 </li>
                                                 <li>
-                                                    <div className="tool">NodeJS, ExpressJS</div>
-                                                </li>
-                                                <li>
                                                     <div className="tool">HTML/CSS</div>
                                                 </li>
                                                 <li>
@@ -74,9 +71,9 @@ class LinkedInDemo extends Component {
                                                 <button className="url1">
                                                     <div>
                                                         <a className="text-decoration-none"
-                                                           href="https://github.com/abybabu5/Ideal-place-to-work-FE"
+                                                           href="https://github.com/abybabu5/FE_linkedIn_MongoDB/tree/OAuth_FB"
                                                            target="_blank">
-                                                            <div className="text-decoration">Repo URL <span
+                                                            <div className="text-decoration">Repo URL FE <span
                                                                 className="url-span"><FaLink/></span></div>
                                                         </a></div>
                                                 </button>
@@ -86,7 +83,7 @@ class LinkedInDemo extends Component {
                                             <button className="url2">
                                                 <div>
                                                     <a className="text-decoration-none"
-                                                       href="http://idealplace-to-work-fe.herokuapp.com/"
+                                                       href="http://fe-linkedin-aby.herokuapp.com/"
                                                        target="_blank">
                                                         <div className="text-decoration">Live URL <span
                                                             className="url-span"><FaLink/></span></div>
