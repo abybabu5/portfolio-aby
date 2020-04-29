@@ -51,7 +51,7 @@
 
 }
 .header-title:hover {
-    box-shadow: 5px 10px 20px 1px rgba(112, 108, 108, 0.84);
+    text-shadow: 1px 1px #00BFFF;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     position: absolute;
     background: none repeat scroll 0 0 transparent;
@@ -83,9 +83,11 @@
     width: 100%;
     left: 0;
 }
-.nav-div a:hover:after:focus {
+
+.nav-div a:focus {
     outline: #00BFFF;
 }
+
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
@@ -103,7 +105,7 @@ label {
     display: flex;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     label {
         display: block;
         cursor: pointer;
@@ -119,7 +121,6 @@ label {
 
     .nav-div a {
         display: block;
-        border-bottom: 1px solid chartreuse;
         margin: 2px 4px 5px 8px;
         padding: 3px 4px 4px 3px;
 
@@ -189,9 +190,9 @@ label {
     }
 
     .header-title:hover {
-        box-shadow: 5px 10px 20px 1px rgba(112, 108, 108, 0.84);
+        text-shadow: 1px 1px #00BFFF;
         transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        position: relative;
+        position: absolute;
         background: none repeat scroll 0 0 transparent;
     }
 

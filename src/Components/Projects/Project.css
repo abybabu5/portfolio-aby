@@ -227,7 +227,7 @@
     height: 100%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .textFont-demo {
         font-family: 'Lato', sans-serif;
         background-color: antiquewhite;
