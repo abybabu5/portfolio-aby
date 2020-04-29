@@ -169,7 +169,7 @@ class CV extends Component {
                 <div className="title">
                     <p className="bold">INTRODUCTION</p>
                 </div>
-                <p>I have Recently finished MERN Full stack development course (Batch Oct19) from StriveSchool Berlin
+                <p>I have recently finished MERN Full stack development course (Batch Oct19) from StriveSchool Berlin
                     and presently I am working in the IT field as a translator. Before I worked in Health & Safety
                     management field for different projects in India and in the Emirates.</p>
             </div>
