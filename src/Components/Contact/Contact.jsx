@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
+import img from "../../images/24919.jpg";
 import {FaSkype, FaTelegram, MdEmail, MdPhoneAndroid} from "react-icons/all";
 import avatar from "../../images/avatar.png"
 import "./Contact.css"

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "./Project.css";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
+import img from "../../images/24919.jpg";
 
 
 class LinkedInDemo extends Component {

@@ -275,6 +275,7 @@
         height: auto;
         display: flex;
         margin: 0 auto;
+        justify-content: center;
 
     }
 
@@ -301,28 +302,36 @@
     }
 
     .resume .title-div {
-        margin-bottom: 20px;
+        /*margin-bottom: 20px;*/
+        margin-top: -107px;
     }
 
     .resume .resume_left .bold {
         color: antiquewhite;
+
     }
 
     .resume .resume_left .regular {
         color: #b1eaff;
+        border-bottom:1px solid #b1eaff;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
     }
 
     .resume .resume_item {
+
         padding: 10px 0;
         border-bottom: 1px solid #b1eaff;
     }
 
     .resume .resume_left .resume_item:last-child,
     .resume .resume_right .resume_item:last-child {
+        display: none;
         border-bottom: 0;
     }
 
     .resume .resume_left ul li {
+
         display: flex;
         /*margin-bottom: 10px;*/
         align-items: center;
@@ -346,6 +355,10 @@
     .resume .resume_left ul li .data {
         color: #b1eaff;
         font-size: 12px;
+    }
+    .resume .resume_left .resume_skills {
+        display: none;
+
     }
 
     .resume .resume_left .resume_skills ul li {

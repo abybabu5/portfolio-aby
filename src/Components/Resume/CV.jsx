@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "./CV.css";
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
+import img from "../../images/24919.jpg";
 import {
     AiOutlineRead,
     FaFacebookSquare, FaLinkedin,
@@ -69,7 +69,7 @@ class CV extends Component {
                             </div>
                             <div className="resume_item resume_skills">
                                 <div className="title">
-                                    <p className="bold">skill's</p>
+                                    <p className="bold">skills</p>
                                 </div>
                                 <ul>
                                     <li>
@@ -130,7 +130,7 @@ class CV extends Component {
                                         </div>
                                         <div className="data">
                                             <p className="semi-bold">Facebook</p>
-                                            <p>abybabu@facebook</p>
+                                            <p>aby.babu.925@facebook</p>
                                         </div>
                                     </li>
                                     <li>
@@ -139,7 +139,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Twitter</p>
-                                <p>abybabu@twitter</p>
+                                <p>abybabu5@twitter</p>
                             </div>
                         </li>
                         <li>
@@ -148,7 +148,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Youtube</p>
-                                <p>abybabu@youtube</p>
+                                <p>abybabu5@youtube</p>
                             </div>
                         </li>
                         <li>
@@ -157,7 +157,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Linkedin</p>
-                                <p>abybabu@linkedin</p>
+                                <p>aby-babu-4b80a7155@linkedin</p>
                             </div>
                         </li>
                     </ul>
@@ -169,8 +169,8 @@ class CV extends Component {
                 <div className="title">
                     <p className="bold">INTRODUCTION</p>
                 </div>
-                <p>Presently I am working in the IT field. Before I worked in Health & Safety
-                    management field for in different projects in India and in the Emirates.</p>
+                <p>Recently finished MERN Full stack development course from StriveSchool Berlin and presently I am working in the IT field as a translator. Before I worked in Health & Safety
+                    management field for different projects in India and in the Emirates.</p>
             </div>
             <div className="resume_item resume_work">
                 <div className="title">
@@ -178,9 +178,9 @@ class CV extends Component {
                 </div>
                 <ul>
                     <li>
-                        <div className="date">2016 - Presnet</div>
+                        <div className="date">2016 - Present</div>
                         <div className="info">
-                            <p className="semi-bold">Junior Developer @ JigJiga Srl, Milan</p>
+                            <p className="semi-bold">Translator @ JigJiga Srl, Milan</p>
                             <p>Responsible for completing the design of applications and software using JavaScript programming
                                 language. Work with websites, producing front-end applications and
                                 performing code analysis and overall improvement of style and usability.</p>

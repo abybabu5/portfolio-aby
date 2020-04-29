@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Spotify from "./Spotify";
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
+import img from "../../images/24919.jpg";
 import spotifyCover from "../../cover-img/spotify-cover.PNG";
 import capstoneCover from "../../cover-img/capstone-cover.PNG"
 import linkedInCover from "../../cover-img/linkedIn-cover.PNG"

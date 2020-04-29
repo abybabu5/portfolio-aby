@@ -59,7 +59,7 @@
 }
 
 .nav-div a {
-    color: chartreuse;
+    color: #00BFFF;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -74,7 +74,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: chartreuse;
+    background: #00BFFF;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
@@ -83,7 +83,9 @@
     width: 100%;
     left: 0;
 }
-
+.nav-div a:hover:after:focus {
+    outline: #00BFFF;
+}
 label {
     margin: 0 40px 0 0;
     font-size: 26px;

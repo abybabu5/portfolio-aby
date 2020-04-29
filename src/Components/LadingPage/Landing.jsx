@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {FaLinkedinIn, FaGithub, FaTwitter, FaYoutube} from 'react-icons/fa';
 /// import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Landing.css";
-import img from "../../images/working-pattern-internet-abstract-1089438.jpg";
+import img from "../../images/24919.jpg";
 
 class Landing extends Component {
     render() {
