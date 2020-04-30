@@ -42,17 +42,19 @@ class Landing extends Component {
 
                                 <div className="landing-icons">
                                     {/* Twitter */}
-                                    <a href="http://google.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}} >
+                                    <a href="https://twitter.com/abybabu5" rel="noopener noreferrer" target="_blank"
+                                       style={{textDecoration: 'none'}}>
                                         <div className="icon-svg">
-                                            <FaTwitter />
+                                            <FaTwitter/>
                                         </div>
                                     </a>
                                 </div>
                                 <div className="landing-icons">
                                     {/* Youtube */}
-                                    <a href="http://google.com" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}} >
+                                    <a href="https://www.youtube.com/channel/UChkNXg_OwCsNiDWgCw_WJFQ?view_as=subscriber"
+                                       rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}>
                                         <div className="icon-svg">
-                                        <FaYoutube />
+                                            <FaYoutube/>
                                         </div>
                                     </a>
                                 </div>

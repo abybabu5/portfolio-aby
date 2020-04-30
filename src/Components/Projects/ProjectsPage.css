@@ -101,5 +101,11 @@
         padding-top: 1rem;
         flex-direction: column;
         width: 250px;
+        margin-bottom: 5px;
+    }
+
+    .button-div {
+        margin-bottom: 5px;
+        padding-bottom: 5rem;
     }
 }

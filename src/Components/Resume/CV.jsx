@@ -54,7 +54,7 @@ class CV extends Component {
                                             <MdEmail/>
                                         </div>
                                         <div className="data">
-                                            abybabu5@gmail.com
+                                            abyitahse(at)gmail.com
                                         </div>
                                     </li>
                                     <li>
@@ -182,9 +182,8 @@ class CV extends Component {
                         <div className="date">2016 - Present</div>
                         <div className="info">
                             <p className="semi-bold">Translator @ JigJiga Srl, Milan</p>
-                            <p>Responsible for completing the design of applications and software using JavaScript programming
-                                language. Work with websites, producing front-end applications and
-                                performing code analysis and overall improvement of style and usability.</p>
+                            <p>Frameworks and translation of web applications IOS, Android etc.
+                            </p>
                         </div>
                     </li>
                     <li>

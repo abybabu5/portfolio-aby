@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ReactPlayer from "react-player";
 import "./Project.css";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";

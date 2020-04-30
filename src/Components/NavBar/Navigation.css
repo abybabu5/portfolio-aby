@@ -46,10 +46,11 @@
 .header-title {
     font-size: 34px;
     color: antiquewhite;
-    background-color: transparent!important;
+    background-color: transparent !important;
     font-weight: bold;
 
 }
+
 .header-title:hover {
     text-shadow: 1px 1px #00BFFF;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -84,9 +85,6 @@
     left: 0;
 }
 
-.nav-div a:focus {
-    outline: #00BFFF;
-}
 
 label {
     margin: 0 40px 0 0;
@@ -121,10 +119,29 @@ label {
 
     .nav-div a {
         display: block;
+        border-bottom: 1px solid #00BFFF;;
         margin: 2px 4px 5px 8px;
         padding: 3px 4px 4px 3px;
 
     }
+
+    .nav-div a:after {
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #00BFFF;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .nav-div a:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
 
     #toggle:checked + .menu {
         display: block;

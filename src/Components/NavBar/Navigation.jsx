@@ -12,6 +12,7 @@ class Navigation extends Component {
     closeMenu = () => {
         this.setState({burgerCheckBox: false});
     }
+
     render() {
         return (
 

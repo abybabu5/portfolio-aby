@@ -19,9 +19,15 @@ class Contact extends Component {
                                     <div className="col-3 contact-title">
                                         Contact Me
                                     </div>
-                                <div className="contact-icons"><MdPhoneAndroid/><div className="contact-text">+393246945616</div></div>
-                                <div className="contact-icons"><MdEmail/><div className="contact-text">abybabu5(at)gmail.com</div></div>
-                                <div className="contact-icons"><FaTelegram/><div className="contact-text">@abybabu</div></div>
+                                <div className="contact-icons"><MdPhoneAndroid/>
+                                    <div className="contact-text">+393246945616</div>
+                                </div>
+                                    <div className="contact-icons"><MdEmail/>
+                                        <div className="contact-text">abyitahse(at)gmail.com</div>
+                                    </div>
+                                    <div className="contact-icons"><FaTelegram/>
+                                        <div className="contact-text">@abybabu</div>
+                                    </div>
                                 <div className="contact-icons"><FaSkype/><div className="contact-text">aby.babu1990</div></div>
                                 </div>
                             </div>
