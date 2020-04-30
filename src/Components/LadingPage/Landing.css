@@ -151,4 +151,33 @@ a {
         font-size: 15px;
 
     }
+
+    .landing-icons {
+        margin: 15px;
+
+    }
+
+    .social-links {
+        margin-left: 130px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+    }
+
+}
+
+@media only screen and (max-width: 1010px) {
+    .social-links {
+        margin-left: 5px !important;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .landing-icons {
+        margin: 15px;
+
+    }
 }
