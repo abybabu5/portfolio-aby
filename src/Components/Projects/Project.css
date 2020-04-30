@@ -148,9 +148,9 @@
 
 }
 
-/*.url-btn:hover {*/
-/*    background-color: #8f8f7e;*/
-/*}*/
+.url-btn:hover {
+    border: 2px solid black;
+}
 
 .go-back-project-text {
     font-size: 14px;

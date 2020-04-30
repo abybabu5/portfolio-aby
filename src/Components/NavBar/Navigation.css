@@ -218,3 +218,25 @@ label {
         margin-top: 5px;
     }
 }
+
+@media only screen and (max-width: 1210px) {
+    .nav-cv {
+        position: relative;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-bottom: 3px;
+
+    }
+
+    .header-title {
+        font-size: 19px;
+        color: antiquewhite;
+        background-color: transparent;
+        font-weight: bold;
+        padding: 8px;
+        margin-left: 2px;
+
+    }
+}

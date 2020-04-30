@@ -134,9 +134,21 @@ color: #b72417 !important;
         margin-right: 8px;
         align-items: center;
     }
-.landing-grid {
-   text-align: center;
-    align-items: center;
-    align-content: center;
+
+    .landing-grid {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
 }
+
+@media only screen and (max-width: 1210px) {
+    .banner-text h1 {
+        font-size: 20px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+
+    }
 }

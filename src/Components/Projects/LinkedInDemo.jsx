@@ -18,7 +18,7 @@ class LinkedInDemo extends Component {
                             <div className="video-container">
                                 <div className="video-box">
                                     <div style={{position: "relative", paddingBottom: "56.25%", height: 0,}}>
-                                        <iframe src="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"
+                                        <iframe src="https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"
                                                 frameBorder="0"
                                                 webkitallowfullscreen
                                                 mozallowfullscreen

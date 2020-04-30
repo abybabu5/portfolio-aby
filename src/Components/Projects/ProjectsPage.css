@@ -1,6 +1,6 @@
 
 .card-body {
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
     /*padding: 3rem 0;*/
     background-color: antiquewhite;
     display: flex;
@@ -50,7 +50,7 @@
     border-radius: 10px;
     margin-top: 50px;
     overflow: hidden;
-    height: 350px;
+    height: 60vh;
 }
 .container-card:hover {
     box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;
@@ -65,8 +65,7 @@
     background-color: transparent;
     border: 2px solid #b72417;
     font-weight: bolder;
-    margin-top: 20px;
-
+    margin-top: 30px;
 
 
 }
