@@ -14,7 +14,7 @@
 
 .nav-cv {
     position: relative;
-    color: antiquewhite;
+    color: #ffa500;
     font-weight: bolder;
     font-size: 24px;
     margin: 0;
@@ -45,7 +45,7 @@
 
 .header-title {
     font-size: 34px;
-    color: antiquewhite;
+    color: #ffa500;
     background-color: transparent !important;
     font-weight: bold;
 
@@ -173,7 +173,7 @@ label {
 
     .nav-cv {
         position: relative;
-        color: antiquewhite;
+        color: #ffa500;
         font-weight: bolder;
         font-size: 15px;
         margin-left: 5px;
@@ -198,7 +198,7 @@ label {
 
     .header-title {
         font-size: 18px;
-        color: antiquewhite;
+        color: #ffa500;
         background-color: transparent;
         font-weight: bold;
         padding: 8px;
@@ -214,7 +214,7 @@ label {
     }
 
     .hamburger {
-        color: antiquewhite;
+        color: #ffa500;
         margin-top: 5px;
     }
 }
@@ -222,7 +222,7 @@ label {
 @media only screen and (max-width: 1210px) {
     .nav-cv {
         position: relative;
-        color: antiquewhite;
+        color: #ffa500;
         font-weight: bolder;
         font-size: 15px;
         margin-left: 5px;
@@ -232,11 +232,12 @@ label {
 
     .header-title {
         font-size: 19px;
-        color: antiquewhite;
+        color: #ffa500;
         background-color: transparent;
         font-weight: bold;
-        padding: 8px;
+        padding-right: 5px;
         margin-left: 2px;
+
 
     }
 }

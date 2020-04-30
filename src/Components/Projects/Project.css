@@ -145,6 +145,7 @@
     width: 220px;
     transition: width 2s;
     margin-top: 25px;
+    margin-bottom: 5px;
 
 }
 
@@ -194,10 +195,18 @@
 
 .url1:hover {
     background-color: #00BFFF;
+    /*border: 2px solid black;*/
+
 }
+
+/*.text-decoration:hover {*/
+/*    color: black;*/
+/*}*/
 
 .url2:hover {
     background-color: #00BFFF;
+    /*border: 2px solid black;*/
+
 }
 
 .url1 a {
@@ -230,7 +239,7 @@
 @media only screen and (max-width: 700px) {
     .textFont-demo {
         font-family: 'Lato', sans-serif;
-        background-color: antiquewhite;
+        background-color: #ffa500;
         color: black;
         padding: 10px;
         border-radius: 10px;
@@ -318,7 +327,7 @@
         padding: 6px;
         border-radius: 10px;
         border: 2px solid #b72417;
-        background-color: antiquewhite;
+        background-color: #ffa500;
         width: 250px;
         transition: width 2s;
         margin-top: 25px;
@@ -357,7 +366,7 @@
         border-radius: 10px;
         border: 2px solid #b72417;
         font-weight: bold;
-        background-color: antiquewhite;
+        background-color: #ffa500;
         width: 250px;
         justify-content: center;
 
@@ -370,7 +379,7 @@
         width: 250px;
         border: 2px solid #b72417;
         font-weight: bold;
-        background-color: antiquewhite;
+        background-color: #ffa500;
 
     }
 
