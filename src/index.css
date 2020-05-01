@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-image: url("/images/24919.jpg") !important;
-    background-size: contain !important;
+    background-size: cover !important;
     background: #051564; /* fallback for old browsers */
     background: -webkit-linear-gradient(
             to right,
