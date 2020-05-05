@@ -12,16 +12,16 @@ class Contact extends Component {
                 <img src={img} id="bg" alt="landing-image"/>
                 <div className="container contact-container">
                     <div className="row content-center align-items-center top-margin">
-                        <div className="col-9">
-                        <div className="textFont-contact">
-                            <img src={avatar} className="aby-foto-two" alt=""/>
+                        <div className="col-9 container-contact-intro">
+                            <div className="textFont-contact">
+                                <img src={avatar} className="aby-foto-two" alt=""/>
                                 <div className="contact-icons-div">
                                     <div className="col-3 contact-title">
                                         Contact Me
                                     </div>
-                                <div className="contact-icons"><MdPhoneAndroid/>
-                                    <div className="contact-text">+393246945616</div>
-                                </div>
+                                    <div className="contact-icons"><MdPhoneAndroid/>
+                                        <div className="contact-text">+393246945616</div>
+                                    </div>
                                     <div className="contact-icons"><MdEmail/>
                                         <div className="contact-text">abyitahse(at)gmail.com</div>
                                     </div>

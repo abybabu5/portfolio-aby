@@ -11,8 +11,14 @@
 
 }
 .contact-container {
-    display: flex;
-   padding: 25px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 5px solid transparent;
+    max-width: 800px !important;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 2rem !important;
+
 }
 
 .row {
@@ -41,7 +47,7 @@
     font-family: 'Lato', sans-serif;
     background-color: antiquewhite;
     color: black;
-    padding: 80px;
+    padding: 35px;
     border-radius: 10px;
 
 }
@@ -55,14 +61,14 @@
 
 .contact-text {
     font-size: 24px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .textFont-contact {
     font-family: 'Lato', sans-serif;
     background-color: antiquewhite;
     color: black;
-    padding: 10px;
+    padding: 0;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -74,7 +80,7 @@
 .aby-foto-two {
     border-radius: 150px !important;
     margin-left: 50px;
-    width: 200px !important;
+    width: 170px !important;
 }
 
 

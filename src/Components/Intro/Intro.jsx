@@ -9,7 +9,7 @@ class Intro extends Component {
         return (
             <div>
                 <img src={img} id="bg" alt="landing-image"/>
-                <div className="container">
+                <div className="container intro-container">
                     <div className="row content-center align-items-center top-margin">
                         <div className="col-9">
                             <div className="textFont-intro">
@@ -17,9 +17,10 @@ class Intro extends Component {
                                     <img alt="AbyPhoto" src={abyPhoto} className="aby-foto" style={{width: '100%'}}/>
                                 </div>
                                 <div className="title">About me
-                                <div className="paragraphText">
-                                    My name is Aby Babu.
-                                    I am an English-language professional- Full-Stack Developer, services consultant working with people and
+                                    <div className="paragraphText">
+                                        My name is Aby Babu.
+                                        I am an English-language professional- Full-Stack Developer, services consultant
+                                        working with people and
                                     organisations
                                     in the
                                     field of Information Technology in Italy. <br/>

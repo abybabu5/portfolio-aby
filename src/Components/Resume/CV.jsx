@@ -169,7 +169,8 @@ class CV extends Component {
                 <div className="title">
                     <p className="bold">INTRODUCTION</p>
                 </div>
-                <p>I have recently finished MERN Full stack development course (Batch Oct19) from StriveSchool Berlin
+                <p className="semi-bold">I have recently finished MERN Full stack development course (Batch Oct19) from
+                    StriveSchool Berlin
                     and presently I am working in the IT field as a translator. Before I worked in Health & Safety
                     management field for different projects in India and in the Emirates.</p>
             </div>
@@ -182,7 +183,7 @@ class CV extends Component {
                         <div className="date">2016 - Present</div>
                         <div className="info">
                             <p className="semi-bold">Translator @ JigJiga Srl, Milan</p>
-                            <p>Frameworks and translation of web applications IOS, Android etc.
+                            <p className="semi-bold">Frameworks and translation of web applications IOS, Android etc.
                             </p>
                         </div>
                     </li>
@@ -190,14 +191,15 @@ class CV extends Component {
                         <div className="date">2015 - 2016</div>
                         <div className="info">
                             <p className="semi-bold">Translator @ DH9 Srls, Rome</p>
-                            <p>Frameworks and translation of web applications IOS, Android etc.</p>
+                            <p className="semi-bold">Frameworks and translation of web applications IOS, Android
+                                etc.</p>
                         </div>
                     </li>
                     <li>
                         <div className="date">2013 - 2014</div>
                         <div className="info">
                             <p className="semi-bold">HSE Officer @ Danway EME, UAE</p>
-                            <p>Advise the Contractors on Safety Measures.
+                            <p className="semi-bold">Advise the Contractors on Safety Measures.
                                 -Inspect the worksite for safety contraventions and rectify any unsafe conditions and
                                 unsafe actions.
                                 -Correcting unsafe practices at the work site.
@@ -213,10 +215,7 @@ class CV extends Component {
                                 -Participate in daily production meetings to update the Team Safety section with
                                 construction site
                                 management.
-                                -Preparation of daily, weekly, monthly HSE reports.
-                                -Preparation of investigation report and implementation of minimal risk for the
-                                occurrence and HSE
-                                annual report.</p>
+                                -Preparation of daily, weekly, monthly HSE reports & HSE annual report.</p>
                         </div>
                     </li>
                     <li>
@@ -224,7 +223,7 @@ class CV extends Component {
                         <div className="info">
                             <p className="semi-bold">HSE Officer @ INDUSTRIAL FIRE AND SAFETY SERVICES PVT LTD, Baroda
                                 (India) </p>
-                            <p>Advise the Contractors on Safety Measures.
+                            <p className="semi-bold">Advise the Contractors on Safety Measures.
                                 -Inspect the worksite for safety contraventions and rectify any unsafe conditions and
                                 unsafe actions.
                                 -Correcting unsafe practices in the work site.-Conducting safety Induction to the new

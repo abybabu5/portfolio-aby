@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./Project.css";
+import "./Project.scss";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
 import img from "../../images/24919.jpg";

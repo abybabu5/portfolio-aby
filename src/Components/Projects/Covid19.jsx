@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./ProjectsPage.scss";
 
 
-const LinkedIn = (props) => {
+const Covid19 = (props) => {
 
     return (
         <div>
@@ -22,7 +22,8 @@ const LinkedIn = (props) => {
                             </div>
                             <hr/>
                             <div className="button-div">
-                                <button className="btn-project"><Link to="/linkedInDemo" className="link-decoration">
+                                <button className="btn-project"><Link to="/Covid19trackerDemo"
+                                                                      className="link-decoration">
                                     <div className="go-to-the-project">Go to the Project</div>
                                 </Link></button>
                             </div>
@@ -35,4 +36,4 @@ const LinkedIn = (props) => {
     );
 }
 
-export default LinkedIn;
+export default Covid19;

@@ -1,7 +1,6 @@
-
 .nav-div-container {
+    align-items: center;
     display: flex;
-    padding-top: 15px;
     height: 55px;
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
@@ -38,24 +37,24 @@
     margin-left: 10px;
 }
 
+
 .spacer-title {
     width: 35px;
     overflow: auto;
 }
 
-.header-title {
+.header-title-web {
     font-size: 34px;
     color: #ffa500;
     background-color: transparent !important;
     font-weight: bold;
 
+
 }
 
-.header-title:hover {
+.header-title-web:hover {
     text-shadow: 1px 1px #00BFFF;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    position: absolute;
-    background: none repeat scroll 0 0 transparent;
+
 
 }
 
@@ -99,7 +98,7 @@ label {
 
 }
 
-.menu {
+.menu-burger-web {
     display: flex;
 }
 
@@ -151,7 +150,6 @@ label {
 
     .nav-div-container {
         display: flex;
-        padding-top: 10px;
         height: 55px;
     }
 
@@ -241,3 +239,4 @@ label {
 
     }
 }
+

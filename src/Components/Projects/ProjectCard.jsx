@@ -3,10 +3,10 @@ import {Link} from "react-router-dom";
 import "./ProjectsPage.scss";
 
 
-const LinkedIn = (props) => {
+const ProjectCard = (props) => {
 
     return (
-        <div>
+        <div className={'project-card ' + props.pageClass}>
             <div className="container">
                 <div className="row content-center align-items-center">
                     <div className="col-4 container-card">
@@ -22,7 +22,8 @@ const LinkedIn = (props) => {
                             </div>
                             <hr/>
                             <div className="button-div">
-                                <button className="btn-project"><Link to="/linkedInDemo" className="link-decoration">
+                                <button className="btn-project"><Link to={props.projectLink}
+                                                                      className="link-decoration">
                                     <div className="go-to-the-project">Go to the Project</div>
                                 </Link></button>
                             </div>
@@ -35,4 +36,4 @@ const LinkedIn = (props) => {
     );
 }
 
-export default LinkedIn;
+export default ProjectCard;
