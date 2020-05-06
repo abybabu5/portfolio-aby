@@ -9,16 +9,16 @@ class LinkedInDemo extends Component {
     render() {
         return <div>
             <div className="container">
-                <img src={img} id="bg" alt="landing-image"/>
+                {/*<img src={img} id="bg" alt="landing-image"/>*/}
                 <div className="row content-center align-items-center top-margin linkedIn">
                     <div className="col-9">
 
                         <div className="textFont-demo">
-                            <h1 className="title-heading">LinkedIn Mock-up</h1>
+                            <h1 className="title-heading">{this.props.title}</h1>
                             <div className="video-container">
                                 <div className="video-box">
                                     <div style={{position: "relative", paddingBottom: "56.25%", height: 0,}}>
-                                        <iframe src="https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"
+                                        <iframe src={this.props.videoLink}
                                                 frameBorder="0"
                                                 webkitallowfullscreen
                                                 mozallowfullscreen
@@ -38,30 +38,11 @@ class LinkedInDemo extends Component {
                                     <div className="title-project">Project Management Tools
                                         <div className="paragraphText">
                                             <ul className="project-management">
-                                                <li>
-                                                    <div className="tool">Github</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Trello</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Postman</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Heroku</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">ReactJS, Redux</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">HTML/CSS</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Bootstrap</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">PHPStorm</div>
-                                                </li>
+                                                {this.props.tools.map(tool => {
+                                                    return <li>
+                                                        <div className="tool">{tool}</div>
+                                                    </li>
+                                                })}
                                             </ul>
                                         </div>
                                     </div>

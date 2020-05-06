@@ -62,7 +62,7 @@ class CV extends Component {
                                             <FiGlobe/>
                                         </div>
                                         <div className="data">
-                                            www.aby.ariken.com
+                                            http://aby.ariken.com
                                         </div>
                                     </li>
                                 </ul>

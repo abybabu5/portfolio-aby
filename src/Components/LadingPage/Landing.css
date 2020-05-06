@@ -25,49 +25,29 @@
 .avatar-img {
     width: calc(15vw);
     border-radius: 50%;
-}
-.banner-text {
-    background-color: black;
-    opacity: .8;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 3px 0 rgba(44, 219, 9, 0.5);
-    padding: 15px;
-}
-/*.banner-text:hover {*/
-/*    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;*/
-/*}*/
-
-.banner-text h1 {
-    padding-top: 0.3em;
-    font-size: 50px;
-    color: #ffa500;
-    margin-block-end: 0.4em;
-    text-shadow: 2px 2px #b72417;
 
 }
-
 
 .banner-text hr {
-    width: 50%;
+    width: 80%;
     margin: auto;
 
 }
 
 .banner-text p {
-    margin-top: 10px;
-    color: #ffa500;
-    font-size: 23px;
-    text-shadow: 1px 1px rgba(0, 3, 12, 0.99);
+
 
 }
 
 .social-links {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    width: 40%;
-    margin: auto;
+    align-content: center;
+    width: 50%;
+    margin: 15px 50px 20px;
     padding-bottom: 30px;
+    padding-right: 10px;
 }
 
 a {
@@ -76,12 +56,14 @@ a {
 .landing-icons {
     background-color: antiquewhite;
     border-radius: 50%;
-    border: #00BFFF 1px solid;
+    border: #ffa500 2px solid;
     height: 30px;
     width: 30px;
     transition: width 1s;
     margin-top: 15px;
-    /*align-content: center;*/
+    margin-right: -52px;
+    align-content: center;
+
 }
 
 .landing-icons:hover {
@@ -91,16 +73,147 @@ a {
 }
 
 .icon-svg {
-    margin-top: 7px
+    margin-top: 4px
+
+}
+
+.stack-dev-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5.3em;
+    padding-bottom: 20px;
+    margin-right: 50px !important;
+    font-size: 15px;
+    color: black;
+    text-shadow: 1px 1px #ffa500;
+
+}
+
+.stack-dev-para {
+    color: black;
+    font-size: 17px;
+    text-shadow: none;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+.card-container-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    width: 615px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #606f7b;
+    border-radius: 15rem;
+    background-color: antiquewhite;
+    box-shadow: 0 0 3px 0 rgba(44, 219, 9, 0.5);
+}
+
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25) !important;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    background-color: #766a4f;
+    transition: width .7s;
+    z-index: -1;
+    border-radius: 15rem;
+
+}
+
+.card__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1.6rem;
+    border-radius: 3rem;
+    padding: 0 1rem 4rem;
+    background-color: #ffa500;
+    box-shadow: 9px 0 0 rgb(65, 56, 32), inset 0 0 15px #000;
+}
+
+.card__left .card__animated-arrow {
+    position: absolute;
+    left: 9rem;
+    top: 10.5rem;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 25px solid #000;
+    z-index: -1;
+
+}
+
+.card-top-left__btn {
+    width: 78%;
+    padding: .4rem .8rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 3);
+    border-radius: 9999px;
+    line-height: 1;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-align: center;
+    transition: background .37s;
+}
+
+.card-top-left__btn:hover {
+
+    background: rgba(255, 255, 255, .7);
+    color: #3d4852;
+
+}
+
+.card-left-middle__content img {
+    width: 120px;
+    height: 150px;
+    border-radius: 9999px;
+    transition: all .3s;
+}
+
+.card-left-middle__content img:hover {
+    transform: scale(1.15);
+}
+
+.card .card-artist__type {
+    font-weight: 700;
+    font-size: .9rem;
+    color: #5c3b0d;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 500px) {
 
- .avatar-img {
-     width:100px;
+    .avatar-img {
+        width: 100px;
 
 
- }
+    }
+
     .banner-text {
         width: 65%;
         padding: 10px;

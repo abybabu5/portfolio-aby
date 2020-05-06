@@ -14,18 +14,24 @@ class CapstoneDemo extends Component {
                     <div className="col-9">
 
                         <div className="textFont-demo">
-                            <h1 className="title-heading">IDEAL PLACE TO WORK</h1>
+                            <h1 className="title-heading">{this.props.title}</h1>
                             <div className="video-container">
                                 <div className="video-box">
                                     {/*<ReactPlayer url="https://www.youtube.com/watch?v=LxeDm_cSkHU"/>*/}
 
                                     <div style={{position: "relative", paddingBottom: "56.25%", height: 0,}}>
-                                        <iframe src="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"
+                                        <iframe src={this.props.videoLink}
                                                 frameBorder="0"
                                                 webkitallowfullscreen
                                                 mozallowfullscreen
                                                 allowFullScreen
-                                                style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%",}}>
+                                                style={{
+                                                    position: "absolute",
+                                                    top: 0,
+                                                    left: 0,
+                                                    width: "100%",
+                                                    height: "100%",
+                                                }}>
                                         </iframe>
                                     </div>
 
@@ -34,30 +40,11 @@ class CapstoneDemo extends Component {
                                     <div className="title-project">Project Management Tools
                                         <div className="paragraphText">
                                             <ul className="project-management">
-                                                <li>
-                                                    <div className="tool">Github</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Trello</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Postman</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Heroku</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">ReactJS</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">HTML/CSS</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Bootstrap</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">PHPStorm</div>
-                                                </li>
+                                                {this.props.tools.map(tool => {
+                                                    return <li>
+                                                        <div className="tool">{tool}</div>
+                                                    </li>
+                                                })}
                                             </ul>
                                         </div>
                                     </div>

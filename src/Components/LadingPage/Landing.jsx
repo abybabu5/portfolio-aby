@@ -11,55 +11,73 @@ class Landing extends Component {
                 <img src={img} id="bg" alt="landing-image"/>
                 <div className="landing-grid">
                     <div>
-                        <img
-                            src={photo}
-                            //src="https://i.imgur.com/xHgzd7f.jpg"
-                            alt="avatar"
-                            className="avatar-img"
-                        />
-                    </div>
-                    <div>
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
-                            <hr/>
-                            <p>HTML/CSS | Bootstrap | JavaScript | React </p>
-                            <p>NodeJS | Express | MongoDB | PostgreSQL</p>
-                            <div className="social-links">
-                                <div className="landing-icons">
-                                    {/* LinkedIn */}
-                                    <a href="https://www.linkedin.com/in/aby-babu-4b80a7155/" rel="noopener noreferrer"
-                                       target="_blank">
-                                        <div className="icon-svg">
-                                            <FaLinkedinIn />
-                                        </div>
-                                    </a>
-                                </div>
-                                <div className="landing-icons">
-                                    {/* Github */}
-                                    <a href="https://github.com/abybabu5" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}} >
-                                        <div className="icon-svg">
-                                            <FaGithub />
-                                        </div>
-                                    </a>
-                                </div>
+                            <div className="card-container-landing">
+                                <div className="card">
+                                    <div className="card__left">
+                                        <div className="card__animated-arrow">
 
-                                <div className="landing-icons">
-                                    {/* Twitter */}
-                                    <a href="https://twitter.com/abybabu5" rel="noopener noreferrer" target="_blank"
-                                       style={{textDecoration: 'none'}}>
-                                        <div className="icon-svg">
-                                            <FaTwitter/>
                                         </div>
-                                    </a>
-                                </div>
-                                <div className="landing-icons">
-                                    {/* Youtube */}
-                                    <a href="https://www.youtube.com/channel/UChkNXg_OwCsNiDWgCw_WJFQ?view_as=subscriber"
-                                       rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}>
-                                        <div className="icon-svg">
-                                            <FaYoutube/>
+                                        <div className="card-top-left__btn">Aby Babu</div>
+                                        <div className="card-left-middle__content"><img
+                                            style={{borderRadius: "50%", width: "150px"}} src={photo} alt=""/></div>
+                                        <div className="card-artist__type">
+                                            <span>Javascript Enthusiast</span>
+                                            <br/>
+                                            <span>Technology addict</span>
                                         </div>
-                                    </a>
+
+                                    </div>
+                                    <div className="stack-dev-title">
+                                        <h1>Full Stack Web Developer</h1>
+                                        <hr/>
+                                        <div className="stack-dev-para">
+                                            <p>HTML/CSS | Bootstrap | JavaScript | React </p>
+                                            <p>NodeJS | Express | MongoDB | PostgreSQL</p>
+                                        </div>
+                                        <div className="social-links">
+                                            <div className="landing-icons">
+                                                {/* LinkedIn */}
+                                                <a href="https://www.linkedin.com/in/aby-babu-4b80a7155/"
+                                                   rel="noopener noreferrer"
+                                                   target="_blank">
+                                                    <div className="icon-svg">
+                                                        <FaLinkedinIn/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="landing-icons">
+                                                {/* Github */}
+                                                <a href="https://github.com/abybabu5" rel="noopener noreferrer"
+                                                   target="_blank" style={{textDecoration: 'none'}}>
+                                                    <div className="icon-svg">
+                                                        <FaGithub/>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div className="landing-icons">
+                                                {/* Twitter */}
+                                                <a href="https://twitter.com/abybabu5" rel="noopener noreferrer"
+                                                   target="_blank"
+                                                   style={{textDecoration: 'none'}}>
+                                                    <div className="icon-svg">
+                                                        <FaTwitter/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div className="landing-icons">
+                                                {/* Youtube */}
+                                                <a href="https://www.youtube.com/channel/UChkNXg_OwCsNiDWgCw_WJFQ?view_as=subscriber"
+                                                   rel="noopener noreferrer" target="_blank"
+                                                   style={{textDecoration: 'none'}}>
+                                                    <div className="icon-svg">
+                                                        <FaYoutube/>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

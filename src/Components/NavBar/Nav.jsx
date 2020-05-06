@@ -37,7 +37,7 @@ class Nav extends Component {
                                     </Link></li>
                                     <li className="nav-div-mobile nav-div-title" onClick={this.closeMenu}><Link
                                         style={{textDecoration: 'none'}} to="/intro">
-                                        <div className="nav-cv-mobile">About me</div>
+                                        <div className="nav-cv-mobile nav-cv-mobile-about-me">About me</div>
                                     </Link></li>
                                     <li className="nav-div-mobile nav-div-title-mobile" onClick={this.closeMenu}><Link
                                         style={{textDecoration: 'none'}} to="/projects">

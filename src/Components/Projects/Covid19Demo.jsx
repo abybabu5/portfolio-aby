@@ -9,18 +9,18 @@ class Covid19Demo extends Component {
     render() {
         return <div>
             <div className="container">
-                <img src={img} id="bg" alt="landing-image"/>
+                {/*<img src={img} id="bg" alt="landing-image"/>*/}
                 <div className="row content-center align-items-center top-margin">
                     <div className="col-9">
 
                         <div className="textFont-demo">
-                            <h1 className="title-heading">COVID19 TRACKER ITALY 2020</h1>
+                            <h1 className="title-heading">{this.props.title}</h1>
                             <div className="video-container">
                                 <div className="video-box">
                                     {/*<ReactPlayer url="https://www.youtube.com/watch?v=LxeDm_cSkHU"/>*/}
 
                                     <div style={{position: "relative", paddingBottom: "56.25%", height: 0,}}>
-                                        <iframe src="https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2"
+                                        <iframe src={this.props.videoLink}
                                                 frameBorder="0"
                                                 webkitallowfullscreen
                                                 mozallowfullscreen
@@ -40,24 +40,11 @@ class Covid19Demo extends Component {
                                     <div className="title-project">Project Management Tools
                                         <div className="paragraphText">
                                             <ul className="project-management">
-                                                <li>
-                                                    <div className="tool">Github</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">Postman</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">ReactJS</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">HTML/CSS</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">React-Bootstrap</div>
-                                                </li>
-                                                <li>
-                                                    <div className="tool">PHPStorm</div>
-                                                </li>
+                                                {this.props.tools.map(tool => {
+                                                    return <li>
+                                                        <div className="tool">{tool}</div>
+                                                    </li>
+                                                })}
                                             </ul>
                                         </div>
                                     </div>

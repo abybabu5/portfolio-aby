@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import "./Navigation.css"
 import {Link} from "react-router-dom";
-import {FaBars} from "react-icons/all";
+//import {FaBars} from "react-icons/all";
 
 class Navigation extends Component {
     state = {burgerCheckBox: false}

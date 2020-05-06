@@ -9,7 +9,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <img src={img} id="bg" alt="landing-image"/>
+                {/*<img src={img} id="bg" alt="landing-image"/>*/}
                 <div className="container contact-container">
                     <div className="row content-center align-items-center top-margin">
                         <div className="col-9 container-contact-intro">
