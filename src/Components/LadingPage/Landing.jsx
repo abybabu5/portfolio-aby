@@ -3,6 +3,7 @@ import {FaLinkedinIn, FaGithub, FaTwitter, FaYoutube} from 'react-icons/fa';
 import photo from "../../images/Aby-landing.jpg"
 import "./Landing.css";
 import img from "../../images/24919.jpg";
+import {Link} from "react-router-dom";
 
 class Landing extends Component {
     render() {
@@ -19,8 +20,9 @@ class Landing extends Component {
 
                                         </div>
                                         <div className="card-top-left__btn">Aby Babu</div>
-                                        <div className="card-left-middle__content"><img
-                                            style={{borderRadius: "50%", width: "150px"}} src={photo} alt=""/></div>
+                                        <div className="card-left-middle__content"><Link to="/intro"><img
+                                            style={{borderRadius: "50%", width: "150px"}} src={photo} alt=""/></Link>
+                                        </div>
                                         <div className="card-artist__type">
                                             <span>Javascript Enthusiast</span>
                                             <br/>

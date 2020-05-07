@@ -1,0 +1,83 @@
+[
+  {
+    "id": "01",
+    "title": "Spotify Mock up",
+    "route": "/spotifyDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "repoUrl": "https://github.com/abybabu5/spotify-deezer-aby",
+    "liveUrl": "http://spotify-deezer-api-fe.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/7538b2cdeaec4c9a94f734b76f55a69e"
+  },
+  {
+    "id": "02",
+    "title": "Ideal Place to Work FE",
+    "route": "/capstoneDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "repo_url": "https://github.com/abybabu5/Ideal-place-to-work-FE",
+    "live_url": "http://idealplace-to-work-fe.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/1163a84522394128bce74557af3c14da"
+  },
+  {
+    "id": "03",
+    "title": "LinkedIn Mock-up FE",
+    "route": "/linkedInDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "Redux",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "repo_url": "https://github.com/abybabu5/FE_linkedIn_MongoDB/tree/OAuth_FB",
+    "live_url": "http://fe-linkedin-aby.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"
+  },
+  {
+    "id": "04",
+    "title": "COVID19 Dash Board ITALY 2020",
+    "route": "/Covid19trackerDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "Redux",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "repo_url": "https://github.com/abybabu5/covid19-dashboardV1-italy",
+    "live_url": "http://aby.ariken.it/covid19/",
+    "videoLink": "https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2"
+  }
+]
+
+
+

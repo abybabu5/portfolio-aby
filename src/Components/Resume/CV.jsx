@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./CV.css";
 import img from "../../images/24919.jpg";
+import cvPhoto from "../../images/aby_cv_photo.jpg"
 import {
     AiOutlineRead,
     FaFacebookSquare, FaLinkedin,
@@ -11,6 +12,7 @@ import {
     FiGlobe, GiPlantsAndAnimals, MdCardTravel,
     MdEmail,
 } from "react-icons/all";
+import {Link} from "react-router-dom";
 
 
 class CV extends Component {
@@ -18,17 +20,17 @@ class CV extends Component {
         return (
             <div className="main-cv-div">
                 <img src={img} id="bg" alt="landing-image"/>
-                <div className="container">
-                <div className="resume">
-                    <div className="resume_left">
-                        <div className="resume_profile">
-                            <img
-                                src="https://media-exp1.licdn.com/dms/image/C5603AQFFoeaG2n8k2w/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=HcaNmjyl8Ym9Dbe-9hztPz34EdgR7_-eqRMIs6XBGeA"
-                                alt="profile_pic"/>
-                        </div>
-                        <div className="resume_content">
-                            <div className="resume_item resume_info">
-                                <div className="title-div">
+                <div className="container-cv">
+                    <div className="resume">
+                        <div className="resume_left">
+                            <div className="resume_profile">
+                                <img
+                                    src={cvPhoto}
+                                    alt="profile_pic"/>
+                            </div>
+                            <div className="resume_content">
+                                <div className="resume_item resume_info">
+                                    <div className="title-div">
                                     <p className="bold">Aby Babu</p>
                                     <p className="regular">Full Stack Web Developer</p>
                                 </div>
@@ -62,7 +64,8 @@ class CV extends Component {
                                             <FiGlobe/>
                                         </div>
                                         <div className="data">
-                                            http://aby.ariken.com
+                                            <Link className="data-web" to="/" target="_blank"
+                                                  style={{textDecoration: "none"}}> http://aby.ariken.it</Link>
                                         </div>
                                     </li>
                                 </ul>

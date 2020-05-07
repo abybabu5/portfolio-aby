@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
-import "./Project.scss";
+import "../Projects/ProjectsPage.scss";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
 import img from "../../images/24919.jpg";
 
 
-class SpotifyDemo extends Component {
+class CapstoneDemo extends Component {
     render() {
         return <div>
             <div className="container">
                 <img src={img} id="bg" alt="landing-image"/>
                 <div className="row content-center align-items-center top-margin">
                     <div className="col-9">
+
                         <div className="textFont-demo">
                             <h1 className="title-heading">{this.props.title}</h1>
                             <div className="video-container">
@@ -28,8 +29,8 @@ class SpotifyDemo extends Component {
                                                     position: "absolute",
                                                     top: 0,
                                                     left: 0,
-                                                    width: "100%",
-                                                    height: "100%",
+                                                    width: "70%",
+                                                    height: "70%",
                                                 }}>
                                         </iframe>
                                     </div>
@@ -53,7 +54,7 @@ class SpotifyDemo extends Component {
                                                 <button className="url1">
                                                     <div>
                                                         <a className="text-decoration-none"
-                                                           href="https://github.com/abybabu5/spotify-deezer-aby"
+                                                           href="https://github.com/abybabu5/Ideal-place-to-work-FE"
                                                            target="_blank">
                                                             <div className="text-decoration">Repo URL <span
                                                                 className="url-span"><FaLink/></span></div>
@@ -65,7 +66,7 @@ class SpotifyDemo extends Component {
                                             <button className="url2">
                                                 <div>
                                                     <a className="text-decoration-none"
-                                                       href="http://spotify-deezer-api-fe.herokuapp.com/"
+                                                       href="http://idealplace-to-work-fe.herokuapp.com/"
                                                        target="_blank">
                                                         <div className="text-decoration">Live URL <span
                                                             className="url-span"><FaLink/></span></div>
@@ -95,4 +96,4 @@ class SpotifyDemo extends Component {
     }
 }
 
-export default SpotifyDemo;
+export default CapstoneDemo;

@@ -20,7 +20,6 @@
 }
 
 
-
 .bold {
     font-weight: 700;
     font-size: 20px;
@@ -36,7 +35,7 @@
     width: 800px;
     height: auto;
     display: flex;
-    margin: 50px auto;
+    margin: 75px auto;
 
 }
 
@@ -44,6 +43,14 @@
     width: 270px;
     background: #ffa500;
 
+}
+
+.data a {
+    color: black !important;
+}
+
+.data-web a {
+    color: black !important;
 }
 
 .resume .resume_left .resume_profile {

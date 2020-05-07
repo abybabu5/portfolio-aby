@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import "./ProjectsPage.scss";
+import "./ProjectCard.scss";
 
 
 const ProjectCard = (props) => {
@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
     return (
         <div className={'project-card ' + props.pageClass}>
             <div className="container">
-                <div className="row content-center align-items-center">
+                <div className="row-project content-center align-items-center">
                     <div className="col-4 container-card">
                         <div className="card-container">
                             <img src={props.imgsrc} alt="coverImg1" className="card-img-top"
@@ -16,7 +16,9 @@ const ProjectCard = (props) => {
                         </div>
                         <div className="card-body">
                             <h4 className="card-title">{props.title}</h4>
-                            <hr/>
+                            <div style={{marginBottom: "10px"}}>
+                                <hr/>
+                            </div>
                             <div className="card-text-div">
                                 <p className="card-text">{props.text}</p>
                             </div>

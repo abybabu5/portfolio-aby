@@ -4,8 +4,8 @@ import spotifyCover from "../../cover-img/spotify-cover.PNG";
 import capstoneCover from "../../cover-img/capstone-cover.PNG";
 import linkedInCover from "../../cover-img/linkedIn-cover.PNG";
 import covid19Cover from "../../cover-img/covid19-cover.PNG";
+import "./ProjectCard.scss";
 import "./ProjectsPage.scss";
-import "./Project.scss";
 import ProjectCard from "./ProjectCard";
 
 

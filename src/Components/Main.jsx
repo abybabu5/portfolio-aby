@@ -7,21 +7,17 @@ import CV from "./Resume/CV";
 import Navigation from "./NavBar/Navigation";
 import Nav from "./NavBar/Nav"
 import ProjectsPage from "./Projects/ProjectsPage";
-import SpotifyDemo from "./Projects/SpotifyDemo";
-import Capstone from "./Projects/CapstoneDemo";
-import LinkedInDemo from "./Projects/LinkedInDemo";
-import Covid19Demo from "./Projects/Covid19Demo";
+import SpotifyDemo from "./Demo/SpotifyDemo";
+import Capstone from "./Demo/CapstoneDemo";
+import LinkedInDemo from "./Demo/LinkedInDemo";
+import Covid19Demo from "./Demo/Covid19Demo";
 import img from "../images/24919.jpg";
+import data from "./Data/Data.json"
+import Demo from "./Demo/Demo";
 
 class Main extends Component {
     state = {
         isMobile: window.innerWidth < 768
-    }
-    tools = {
-        spotify: ["GitHub", "Trello", "Git", "Postman", "Heroku", "ReactJS", "HTML/CSS", "Bootstrap", "PHPStorm"],
-        capstone: ["GitHub", "Trello", "Git", "Postman", "Heroku", "ReactJS", "HTML/CSS", "Bootstrap", "PHPStorm"],
-        linkedin: ["GitHub", "Trello", "Git", "Postman", "Heroku", "ReactJS", "Redux", "HTML/CSS", "Bootstrap", "PHPStorm"],
-        covid19: ["GitHub", "Trello", "Git", "Postman", "Heroku", "ReactJS", "HTML/CSS", "Bootstrap", "PHPStorm"]
     }
 
     constructor() {
@@ -56,26 +52,33 @@ class Main extends Component {
                                 <Route path="/projects">
                                     <ProjectsPage pageClass="spotify-page"/>
                                 </Route>
-                                <Route path="/spotifyDemo">
-                                    <SpotifyDemo
-                                        videoLink="https://www.loom.com/embed/7538b2cdeaec4c9a94f734b76f55a69e"
-                                        title="Spotify Mock up" tools={this.tools.spotify}/>
-                                </Route>
-                                <Route path="/capstoneDemo">
-                                    <Capstone
-                                        videoLink="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"
-                                        title="Ideal Place to Work FE" tools={this.tools.capstone}/>
-                                </Route>
-                                <Route path="/linkedInDemo">
-                                    <LinkedInDemo
-                                        videoLink="https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"
-                                        title="LinkedIn Mock-up FE" tools={this.tools.linkedin}/>
-                                </Route>
-                                <Route path="/Covid19trackerDemo">
-                                    <Covid19Demo
-                                        videoLink="https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2"
-                                        title="COVID19 TRACKER ITALY 2020" tools={this.tools.covid19}/>
-                                </Route>
+                                {data.map(p => {
+                                    return (
+                                        <Route path={p.route}>
+                                            <Demo
+                                                videoLink={p.videoLink} repoUrl={p.repoUrl} liveUrl={p.liveUrl}
+                                                title={p.title} tools={p.tools}/>
+                                        </Route>
+                                    )
+                                })
+
+                                }
+
+                                {/*<Route path="/capstoneDemo">*/}
+                                {/*    <Capstone*/}
+                                {/*        videoLink="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"*/}
+                                {/*        title="Ideal Place to Work FE" tools={this.tools.capstone}/>*/}
+                                {/*</Route>*/}
+                                {/*<Route path="/linkedInDemo">*/}
+                                {/*    <LinkedInDemo*/}
+                                {/*        videoLink="https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"*/}
+                                {/*        title="LinkedIn Mock-up FE" tools={this.tools.linkedin}/>*/}
+                                {/*</Route>*/}
+                                {/*<Route path="/Covid19trackerDemo">*/}
+                                {/*    <Covid19Demo*/}
+                                {/*        videoLink="https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2"*/}
+                                {/*        title="COVID19 TRACKER ITALY 2020" tools={this.tools.covid19}/>*/}
+                                {/*</Route>*/}
                             </Switch>
                         </div>
                     </div>
