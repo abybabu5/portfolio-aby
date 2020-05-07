@@ -45,7 +45,7 @@
     justify-content: space-between;
     align-content: center;
     width: 50%;
-    margin: 15px 50px 20px;
+    margin: 15px 65px 25px;
     padding-bottom: 30px;
     padding-right: 10px;
 }
@@ -119,7 +119,7 @@ a {
     color: #606f7b;
     border-radius: 15rem;
     background-color: antiquewhite;
-    box-shadow: 0 0 3px 0 rgba(44, 219, 9, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(44, 219, 9, 0.5);
 }
 
 

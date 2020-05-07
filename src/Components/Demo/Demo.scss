@@ -41,6 +41,11 @@
 
 }
 
+.description {
+  font-weight: bold;
+  margin-top: 4px;
+}
+
 .row-cols-4 {
   display: flex;
   flex-wrap: wrap;
@@ -210,6 +215,7 @@
   font-weight: bold;
   background-color: antiquewhite;
   width: 120px;
+  cursor: pointer;
 
 
 }
@@ -221,6 +227,7 @@
   border: 2px solid #b72417;
   font-weight: bold;
   background-color: antiquewhite;
+  cursor: pointer;
 
 }
 

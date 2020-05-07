@@ -1,19 +1,15 @@
 import React, {Component} from 'react';
 import {Switch, Route, BrowserRouter as Router} from 'react-router-dom';
-import Landing from "./LadingPage/Landing";
-import Intro from "./Intro/Intro"
-import Contact from "./Contact/Contact";
-import CV from "./Resume/CV";
-import Navigation from "./NavBar/Navigation";
-import Nav from "./NavBar/Nav"
-import ProjectsPage from "./Projects/ProjectsPage";
-import SpotifyDemo from "./Demo/SpotifyDemo";
-import Capstone from "./Demo/CapstoneDemo";
-import LinkedInDemo from "./Demo/LinkedInDemo";
-import Covid19Demo from "./Demo/Covid19Demo";
-import img from "../images/24919.jpg";
+import Landing from "./Components/LadingPage/Landing";
+import Intro from "./Components/Intro/Intro"
+import Contact from "./Components/Contact/Contact";
+import CV from "./Components/Resume/CV";
+import Navigation from "./Components/NavBar/Navigation";
+import NavMob from "./Components/NavBar/NavMob"
+import ProjectsPage from "./Components/Projects/ProjectsPage";
+import img from "./images/24919.jpg";
 import data from "./Data/Data.json"
-import Demo from "./Demo/Demo";
+import Demo from "./Components/Demo/Demo";
 
 class Main extends Component {
     state = {
@@ -33,7 +29,7 @@ class Main extends Component {
                 <Router>
 
                     <div className="main-container">
-                        {this.state.isMobile ? <Nav/> : <Navigation/>}
+                        {this.state.isMobile ? <NavMob/> : <Navigation/>}
                         <img src={img} id="bg" alt="landing-image"/>
                         <div>
                             <Switch>
@@ -57,28 +53,11 @@ class Main extends Component {
                                         <Route path={p.route}>
                                             <Demo
                                                 videoLink={p.videoLink} repoUrl={p.repoUrl} liveUrl={p.liveUrl}
-                                                title={p.title} tools={p.tools}/>
+                                                title={p.title} tools={p.tools} text={p.text}/>
                                         </Route>
                                     )
                                 })
-
                                 }
-
-                                {/*<Route path="/capstoneDemo">*/}
-                                {/*    <Capstone*/}
-                                {/*        videoLink="https://www.loom.com/embed/1163a84522394128bce74557af3c14da"*/}
-                                {/*        title="Ideal Place to Work FE" tools={this.tools.capstone}/>*/}
-                                {/*</Route>*/}
-                                {/*<Route path="/linkedInDemo">*/}
-                                {/*    <LinkedInDemo*/}
-                                {/*        videoLink="https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab"*/}
-                                {/*        title="LinkedIn Mock-up FE" tools={this.tools.linkedin}/>*/}
-                                {/*</Route>*/}
-                                {/*<Route path="/Covid19trackerDemo">*/}
-                                {/*    <Covid19Demo*/}
-                                {/*        videoLink="https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2"*/}
-                                {/*        title="COVID19 TRACKER ITALY 2020" tools={this.tools.covid19}/>*/}
-                                {/*</Route>*/}
                             </Switch>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "../Projects/ProjectsPage.scss";
+import "./Demo.scss";
 import {Link} from "react-router-dom";
 import {FaLink, TiArrowBack} from "react-icons/all";
 
@@ -44,7 +44,9 @@ class Demo extends Component {
                                                 }}>
                                         </iframe>
                                     </div>
-
+                                    <div className="description">
+                                        <h4>Description: </h4>{this.props.text}
+                                    </div>
                                 </div>
                                 <div className="col-3 tools-div">
                                     <div className="title-project">Project Management Tools
@@ -82,7 +84,9 @@ class Demo extends Component {
                                                     </button>
                                                 </div>
                                             </div>
+
                                         </div>
+
                                     </div>
 
                                 </div>

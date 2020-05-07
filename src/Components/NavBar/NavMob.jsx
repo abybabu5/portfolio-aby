@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import "./Nav.css"
+import "./NavMob.css"
 import {Link} from "react-router-dom";
 
-class Nav extends Component {
+class NavMob extends Component {
     state = {burgerCheckBox: false}
     closeMenu = () => {
         this.setState({burgerCheckBox: false});
@@ -69,4 +69,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav;
+export default NavMob;

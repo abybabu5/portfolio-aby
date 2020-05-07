@@ -1,0 +1,95 @@
+[
+  {
+    "id": "01",
+    "title": "Spotify Mock up",
+    "route": "/spotifyDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "image": "/cover-img/spotify-cover.PNG",
+    "repoUrl": "https://github.com/abybabu5/spotify-deezer-aby",
+    "liveUrl": "http://spotify-deezer-api-fe.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/7538b2cdeaec4c9a94f734b76f55a69e",
+    "text": "Spotify Challenge-: Spotify Mock-up app where you can listen,search for songs / artist/ albums / artist page. Made in React using deezer API.",
+    "note": "NB: Please be aware that rendering can take a while since it was deployed on free hosting for showing purposes."
+  },
+  {
+    "id": "02",
+    "title": "Ideal Place to Work FE",
+    "route": "/capstoneDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "image": "/cover-img/capstone-cover.PNG",
+    "repo_url": "https://github.com/abybabu5/Ideal-place-to-work-FE",
+    "live_url": "http://idealplace-to-work-fe.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/1163a84522394128bce74557af3c14da",
+    "text": "Capstone Team Project-: Ideal place to work  is a project where you can search for a cafe, coworking space, etc for working purposes. You can rate a place and filter places by fields like Google Service, Strong WiFi, etc. Made in React using Google API.",
+    "note": "NB: Please be aware that rendering can take a while since it was deployed on free hosting for showing purposes."
+  },
+  {
+    "id": "03",
+    "title": "LinkedIn Mock-up FE",
+    "route": "/linkedInDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "Redux",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "image": "/cover-img/linkedIn-cover.PNG",
+    "repo_url": "https://github.com/abybabu5/FE_linkedIn_MongoDB/tree/OAuth_FB",
+    "live_url": "http://fe-linkedin-aby.herokuapp.com/",
+    "videoLink": "https://www.loom.com/embed/b0f08e65b6d1415e8cad051511763dab",
+    "text": "linkedIn Team Project-: LinkedIn Mock-up app where you can login / register & create your profile, add a post, chat with other users, react on other user's posts, etc. Made in React using the API made by the Team.",
+    "note": "NB: Please be aware that rendering can take a while since it was deployed on free hosting for showing purposes."
+  },
+  {
+    "id": "04",
+    "title": "COVID19 Dash Board FE ITALY",
+    "route": "/Covid19trackerDemo",
+    "tools": [
+      "GitHub",
+      "Trello",
+      "Git",
+      "Postman",
+      "Heroku",
+      "ReactJS",
+      "Redux",
+      "HTML/CSS",
+      "Bootstrap",
+      "PHPStorm"
+    ],
+    "image": "/cover-img/covid19-cover.PNG",
+    "repo_url": "https://github.com/abybabu5/covid19-dashboardV1-italy",
+    "live_url": "http://aby.ariken.it/covid19/",
+    "videoLink": "https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2",
+    "text": "COVID19 DASHBOARD-: A simple dashboard where you can see the map and find the data from the regions and provinces in Italy. Made in React using lmao.ninja API to get the world info and exported .json file from the public repo of Dept. of Civil Protection Italy.",
+    "note": "NB: A new version with more features will be available soon."
+  }
+]
+
+
+

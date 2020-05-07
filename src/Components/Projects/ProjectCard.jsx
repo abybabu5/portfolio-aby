@@ -19,8 +19,11 @@ const ProjectCard = (props) => {
                             <div style={{marginBottom: "10px"}}>
                                 <hr/>
                             </div>
-                            <div className="card-text-div">
+                            <div className="card-text-div-hover">
                                 <p className="card-text">{props.text}</p>
+                            </div>
+                            <div className="card-text-div">
+                                <p className="card-text">{props.note}</p>
                             </div>
                             <hr/>
                             <div className="button-div">
