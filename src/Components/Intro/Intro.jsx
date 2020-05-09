@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import img from "../../images/24919.jpg";
 import abyPhoto from "../../images/Aby DP-min-min.jpg";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Intro.css"
 import jsIcon from "../../icons/iconfinder_187_Js_logo_logos_4373213.png";
 import nodeJsIcon from "../../icons/iconfinder_233_Node_Js_logo_4375017.png";
@@ -13,6 +12,8 @@ import pgAdmin from "../../icons/icons8-postgresql-512.png";
 import sass from "../../icons/icons8-sass-512.png";
 import express from "../../icons/icons8-js-80.png";
 import css from "../../icons/icons8-css3-512.png";
+import rxjs from "../../icons/Rx_Logo-512-512.png";
+import npm from "../../icons/icons8-npm-480.png";
 
 class Intro extends Component {
     render() {
@@ -29,14 +30,19 @@ class Intro extends Component {
                                 <div className="title">About me
                                     <div className="paragraphText">
                                         My name is Aby Babu.
-                                        I am an English-language professional- Full-Stack Developer, services consultant
+                                        I am an English-language professional- Web Developer, services consultant
                                         working with people and
-                                    organisations
-                                    in the
-                                    field of Information Technology in Italy. <br/>
-                                    Recently I finished Full-Stack Development course from Strive School Berlin (Batch Oct19).
-                                    Previously I had the opportunity to work in different projects as an Environmental Health and Safety specialist in Oil& gas, Manufacturing, Industrial Construction and Electromechanical engineering (Shah gas Abu Dhabi, Tram- Dubai, Reliance Industries PVT ltd India, and Sterlite Industries PVT ltd India)
-                                    and after I moved to Italy I started to work in the IT field.
+                                        organisations
+                                        in the
+                                        field of Information Technology in Italy. <br/>
+                                        Recently I have finished MERN Full-Stack Development course from Strive School
+                                        Berlin (Batch Oct19).
+                                        Previously I had the opportunity to work in different projects as an
+                                        Environmental Health and Safety specialist in Oil& gas, Manufacturing,
+                                        Industrial Construction and Electromechanical engineering (Shah gas Abu Dhabi,
+                                        Tram- Dubai, Reliance Industries PVT ltd India, and Sterlite Industries PVT ltd
+                                        India)
+                                        and after I moved to Italy I started to work in the IT field.
                                         I offer a broad application of skills across a diverse range of professional
                                         service
                                         functions -
@@ -59,24 +65,29 @@ class Intro extends Component {
                                             <img src={bsIcon} style={{width: "40px"}} alt=""/>
                                         </div>
                                         <div className="about-me-icons">
+                                            <img src={sass} style={{width: "40px"}} alt=""/>
+                                        </div>
+                                        <div className="about-me-icons">
                                             <img src={jsIcon} style={{width: "40px"}} alt=""/>
+                                        </div>
+                                        <div className="about-me-icons">
+                                            <img src={react} style={{width: "40px"}} alt=""/>
+                                        </div>
+                                        <div className="about-me-icons">
+                                            <img src={npm} style={{width: "40px"}} alt=""/>
                                         </div>
                                         <div className="about-me-icons">
                                             <img src={nodeJsIcon} style={{width: "40px"}} alt=""/>
                                         </div>
-
-
                                         <div className="about-me-icons">
-                                            <img src={react} style={{width: "40px"}} alt=""/>
+                                            <img src={rxjs} style={{width: "40px"}} alt=""/>
                                         </div>
+
                                         <div className="about-me-icons">
                                             <img src={mongdb} style={{width: "40px"}} alt=""/>
                                         </div>
                                         <div className="about-me-icons">
                                             <img src={pgAdmin} style={{width: "40px"}} alt=""/>
-                                        </div>
-                                        <div className="about-me-icons">
-                                            <img src={sass} style={{width: "40px"}} alt=""/>
                                         </div>
                                         <div className="about-me-icons">
                                             <img src={express} style={{width: "40px"}} alt=""/>

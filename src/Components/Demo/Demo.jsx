@@ -44,9 +44,6 @@ class Demo extends Component {
                                                 }}>
                                         </iframe>
                                     </div>
-                                    <div className="description">
-                                        <h4>Description: </h4>{this.props.text}
-                                    </div>
                                 </div>
                                 <div className="col-3 tools-div">
                                     <div className="title-project">Project Management Tools
@@ -91,11 +88,17 @@ class Demo extends Component {
 
                                 </div>
                             </div>
+                            <div className="row description">
+                                <div><h3>Description: </h3>
+                                    <p>{this.props.text}</p></div>
 
+                            </div>
                         </div>
 
                     </div>
                 </div>
+
+
             </div>
         </div>
             ;
