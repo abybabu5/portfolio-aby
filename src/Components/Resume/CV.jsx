@@ -65,7 +65,7 @@ class CV extends Component {
                                         </div>
                                         <div className="data">
                                             <Link className="data-web" to="/" target="_blank"
-                                                  style={{textDecoration: "none"}}> http://aby.ariken.it</Link>
+                                                  style={{textDecoration: "none"}}> http://www.abybabu.it</Link>
                                         </div>
                                     </li>
                                 </ul>
@@ -133,7 +133,7 @@ class CV extends Component {
                                         </div>
                                         <div className="data">
                                             <p className="semi-bold">Facebook</p>
-                                            <p>aby.babu.925@facebook</p>
+                                            <p>aby.babu.925</p>
                                         </div>
                                     </li>
                                     <li>
@@ -142,7 +142,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Twitter</p>
-                                <p>abybabu5@twitter</p>
+                                <p>abybabu5</p>
                             </div>
                         </li>
                         <li>
@@ -151,7 +151,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Youtube</p>
-                                <p>abybabu5@youtube</p>
+                                <p>abybabu5</p>
                             </div>
                         </li>
                         <li>
@@ -160,7 +160,7 @@ class CV extends Component {
                             </div>
                             <div className="data">
                                 <p className="semi-bold">Linkedin</p>
-                                <p>aby-babu-4b80a7155@linkedin</p>
+                                <p>aby-babu-4b80a7155</p>
                             </div>
                         </li>
                     </ul>
@@ -173,9 +173,9 @@ class CV extends Component {
                     <p className="bold">INTRODUCTION</p>
                 </div>
                 <p className="semi-bold">I have recently finished MERN Full stack development course (Batch Oct19) from
-                    StriveSchool Berlin
-                    and presently I am working in the IT field as a translator. Before I worked in Health & Safety
-                    management field for different projects in India and in the Emirates.</p>
+                    StriveSchool Berlin and presently I am working in the IT field as a translator.</p>
+                {/*and presently I am working in the IT field as a translator. Before I worked in Health & Safety*/}
+                {/*management field for different projects in India and in the Emirates.*/}
             </div>
             <div className="resume_item resume_work">
                 <div className="title">
@@ -199,45 +199,45 @@ class CV extends Component {
                         </div>
                     </li>
                     <li>
-                        <div className="date">2013 - 2014</div>
-                        <div className="info">
-                            <p className="semi-bold">HSE Officer @ Danway EME, UAE</p>
-                            <p className="semi-bold">Advise the Contractors on Safety Measures.
-                                -Inspect the worksite for safety contraventions and rectify any unsafe conditions and
-                                unsafe actions.
-                                -Correcting unsafe practices at the work site.
-                                -Conducting safety Induction to the new workers and training the contractors to conduct
-                                the Toolbox
-                                talk for their workers in the Worksite.
-                                -Investigations of accidents and dangerous occurrences at the work site.
-                                -Internal Safety Auditing and assisting external safety auditors.
-                                -Passing all relevant risk information to Contractors and Designers.
-                                -Carried out "Hazard Identification and Risk Assessment (HIRA)" for selected jobs and
-                                PTW system.
-                                -Conducting Mock drills and training, Check-list preparation.
-                                -Participate in daily production meetings to update the Team Safety section with
-                                construction site
-                                management.
-                                -Preparation of daily, weekly, monthly HSE reports & HSE annual report.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="date">2009 - 2013</div>
-                        <div className="info">
-                            <p className="semi-bold">HSE Officer @ INDUSTRIAL FIRE AND SAFETY SERVICES PVT LTD, Baroda
-                                (India) </p>
-                            <p className="semi-bold">Advise the Contractors on Safety Measures.
-                                -Inspect the worksite for safety contraventions and rectify any unsafe conditions and
-                                unsafe actions.
-                                -Correcting unsafe practices in the work site.-Conducting safety Induction to the new
-                                workers and
-                                training the contractors to conduct the Toolbox talk for their workers in the Worksite.
-                                -Preparation of Job safety analysis for selected jobs- JSA
-                                -Participate in daily production meetings to update the Team Safety section with
-                                construction site management
-                                -investigations of accidents and dangerous occurrences at the worksite.
-                            </p>
-                        </div>
+                        {/*    <div className="date">2013 - 2014</div>*/}
+                        {/*    <div className="info">*/}
+                        {/*        <p className="semi-bold">HSE Officer @ Danway EME, UAE</p>*/}
+                        {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
+                        {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
+                        {/*            unsafe actions.*/}
+                        {/*            -Correcting unsafe practices at the work site.*/}
+                        {/*            -Conducting safety Induction to the new workers and training the contractors to conduct*/}
+                        {/*            the Toolbox*/}
+                        {/*            talk for their workers in the Worksite.*/}
+                        {/*            -Investigations of accidents and dangerous occurrences at the work site.*/}
+                        {/*            -Internal Safety Auditing and assisting external safety auditors.*/}
+                        {/*            -Passing all relevant risk information to Contractors and Designers.*/}
+                        {/*            -Carried out "Hazard Identification and Risk Assessment (HIRA)" for selected jobs and*/}
+                        {/*            PTW system.*/}
+                        {/*            -Conducting Mock drills and training, Check-list preparation.*/}
+                        {/*            -Participate in daily production meetings to update the Team Safety section with*/}
+                        {/*            construction site*/}
+                        {/*            management.*/}
+                        {/*            -Preparation of daily, weekly, monthly HSE reports & HSE annual report.</p>*/}
+                        {/*    </div>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*    <div className="date">2009 - 2013</div>*/}
+                        {/*    <div className="info">*/}
+                        {/*        <p className="semi-bold">HSE Officer @ INDUSTRIAL FIRE AND SAFETY SERVICES PVT LTD, Baroda*/}
+                        {/*            (India) </p>*/}
+                        {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
+                        {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
+                        {/*            unsafe actions.*/}
+                        {/*            -Correcting unsafe practices in the work site.-Conducting safety Induction to the new*/}
+                        {/*            workers and*/}
+                        {/*            training the contractors to conduct the Toolbox talk for their workers in the Worksite.*/}
+                        {/*            -Preparation of Job safety analysis for selected jobs- JSA*/}
+                        {/*            -Participate in daily production meetings to update the Team Safety section with*/}
+                        {/*            construction site management*/}
+                        {/*            -investigations of accidents and dangerous occurrences at the worksite.*/}
+                        {/*        </p>*/}
+                        {/*    </div>*/}
                     </li>
                 </ul>
             </div>

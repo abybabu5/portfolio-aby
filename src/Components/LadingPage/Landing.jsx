@@ -1,19 +1,9 @@
 import React, {Component} from 'react';
-import {FaLinkedinIn, FaGithub, FaTwitter, FaYoutube} from 'react-icons/fa';
+import {FaGithub, FaLinkedinIn, FaTwitter, FaYoutube} from 'react-icons/fa';
 import photo from "../../images/Aby-landing.jpg"
-import "./Landing.css";
+import "./Landing.scss";
 import img from "../../images/24919.jpg";
 import {Link} from "react-router-dom";
-import jsIcon from "../../icons/iconfinder_187_Js_logo_logos_4373213.png";
-import nodeJsIcon from "../../icons/iconfinder_233_Node_Js_logo_4375017.png";
-import bsIcon from "../../icons/iconfinder_Bootstrap_682700.png";
-import html from "../../icons/iconfinder_html5_386722.png";
-import react from "../../icons/iconfinder_react_js_1322468.png";
-import mongdb from "../../icons/icons8-mongodb-512.png";
-import pgAdmin from "../../icons/icons8-postgresql-512.png";
-import sass from "../../icons/icons8-sass-512.png";
-import express from "../../icons/icons8-js-80.png";
-import css from "../../icons/icons8-css3-512.png";
 
 
 class Landing extends Component {

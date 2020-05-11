@@ -22,20 +22,11 @@
     /*height: 100%;*/
 }
 
-.avatar-img {
-    width: calc(15vw);
-    border-radius: 50%;
 
-}
 
 .banner-text hr {
     width: 80%;
     margin: auto;
-
-}
-
-.banner-text p {
-
 
 }
 
@@ -149,6 +140,9 @@ a {
     padding: 0 1rem 4rem;
     background-color: #ffa500;
     box-shadow: 9px 0 0 rgb(65, 56, 32), inset 0 0 15px #000;
+    @media only screen and (max-width: 550px) {
+        visibility: hidden;
+    }
 }
 
 .card__left .card__animated-arrow {
@@ -208,12 +202,15 @@ a {
 
 @media only screen and (max-width: 500px) {
 
-    .avatar-img {
-        width: 100px;
-
-
+    #bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1000;
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        height: 100vh;
     }
-
     .banner-text {
         width: 65%;
         padding: 10px;

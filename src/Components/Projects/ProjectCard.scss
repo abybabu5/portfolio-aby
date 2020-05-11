@@ -96,11 +96,12 @@
 
 .btn-project {
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   background-color: transparent;
   border: 2px solid #b72417;
   font-weight: bolder;
-  margin-top: 30px;
+  //margin-top: 30px;
+  margin: auto;
 
 
 }
@@ -130,9 +131,16 @@
   padding-bottom: 15px !important;
 }
 
-.card-title, .button-div {
+.card-title {
   text-align: center;
 
+}
+
+.button-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 700px) {

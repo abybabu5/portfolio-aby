@@ -27,10 +27,11 @@ const ProjectCard = (props) => {
                             </div>
                             <hr/>
                             <div className="button-div">
-                                <button className="btn-project"><Link to={props.projectLink}
-                                                                      className="link-decoration">
-                                    <div className="go-to-the-project">Go to the Project</div>
-                                </Link></button>
+                                <Link to={props.projectLink} className="link-decoration">
+                                    <div className="btn-project">
+                                        <div className="go-to-the-project">Go to the Project</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </div>
