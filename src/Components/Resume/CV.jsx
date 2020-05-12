@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./CV.css";
+import "./CV.scss";
 import img from "../../images/24919.jpg";
 import cvPhoto from "../../images/aby_cv_photo.jpg"
 import {
