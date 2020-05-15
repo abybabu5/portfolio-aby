@@ -35,6 +35,7 @@
     margin: auto;
     @media only screen and (max-width: 550px) {
       width: 40%;
+
     }
 
   }
@@ -68,6 +69,10 @@
     margin-top: 15px;
     margin-right: -52px;
     align-content: center;
+    @media only screen and (max-width: 550px) {
+      border: 2px solid darkorange !important;
+      border-radius: 50%;
+    }
 
   }
 
@@ -78,7 +83,7 @@
   }
 
   .icon-svg {
-    margin-top: 4px
+    margin-top: 4px;
 
   }
 
@@ -244,6 +249,7 @@
     .banner-text h1 {
       font-size: 20px;
 
+
     }
     .banner-text p {
       font-size: 15px;
@@ -278,6 +284,7 @@
   @media only screen and (max-width: 1210px) {
     .banner-text h1 {
       font-size: 20px;
+      //margin-bottom: 25px !important;
     }
 
     .banner-text p {
@@ -312,6 +319,7 @@
     .landing-icons {
       margin: 15px;
 
+
     }
   }
 }
@@ -319,12 +327,16 @@
 .landing-grid-mobile {
   // height: 100vh;
   margin-top: 22vh;
-  display: flex;
+  display: none;
   flex-direction: column;
+  @media only screen and (max-width: 550px) {
+    display: flex;
+  }
 
   .lower-container {
     background-color: white;
     border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
     width: calc(100vw - 200px);
     margin-left: auto;
     margin-right: auto;
@@ -403,6 +415,7 @@
   .stack-dev-title {
     h2 {
       text-align: center;
+      margin-bottom: 5px;
     }
 
     text-align: center;

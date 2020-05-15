@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .video-player-container, .video-player-play-screen {
@@ -131,6 +133,10 @@
 
 .tools-div {
   width: 300px;
+  @media only screen and (max-width: 768px) {
+
+    align-self: center;
+  }
 }
 
 .container-bottom-project {
@@ -143,6 +149,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: #b72417;
+
 }
 
 .go-back-projects {
@@ -202,10 +214,19 @@
   display: flex;
   margin-top: 20px;
   justify-content: space-around;
+  @media only screen and (max-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+
+  }
 }
 
 .url-links {
   margin-bottom: 8px;
+  @media only screen and (max-width: 768px) {
+    width: 100px;
+
+  }
 
 }
 
@@ -217,8 +238,6 @@
   background-color: antiquewhite;
   width: 120px;
   cursor: pointer;
-
-
 }
 
 .url2 {
@@ -229,6 +248,7 @@
   font-weight: bold;
   background-color: antiquewhite;
   cursor: pointer;
+
 
 }
 
@@ -278,13 +298,16 @@
 @media only screen and (max-width: 768px) {
   .textFont-demo {
     font-family: 'Lato', sans-serif;
-    background-color: #ffa500;
+    background-color: antiquewhite;
     color: black;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #34b717;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    margin-right: 0;
+
   }
 
   .textFont-demo:hover {
@@ -366,10 +389,15 @@
     padding: 6px;
     border-radius: 10px;
     border: 2px solid #b72417;
-    background-color: #ffa500;
+    background-color: antiquewhite;
     width: 250px;
     transition: width 2s;
     margin-top: 25px;
+
+    @media only screen and (max-width: 768px) {
+      width: 60px;
+      margin-top: 0;
+    }
 
   }
 
@@ -393,7 +421,7 @@
   .url-links {
 
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 9px;
     display: flex;
     justify-content: center;
 
@@ -405,7 +433,7 @@
     border-radius: 10px;
     border: 2px solid #b72417;
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: antiquewhite;
     width: 250px;
     justify-content: center;
 
@@ -418,7 +446,7 @@
     width: 250px;
     border: 2px solid #b72417;
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: antiquewhite;
 
   }
 
@@ -436,6 +464,7 @@
 
   .text-decoration-none {
     text-decoration: none;
+    color: #b72417;
 
   }
 

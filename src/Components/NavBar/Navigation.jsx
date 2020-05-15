@@ -28,7 +28,7 @@ class Navigation extends Component {
                 {/*    <div className="menu-burger-web">*/}
                 <div className="nav-div nav-div-title" onClick={this.closeMenu}>
                     <Link style={{textDecoration: 'none'}} to="/cv">
-                        <div className="nav-cv">CV</div>
+                        <div className="nav-cv">Resume</div>
                     </Link>
                 </div>
                 <div className="nav-div nav-div-title" onClick={this.closeMenu}>

@@ -17,23 +17,19 @@ class ProjectsPage extends Component {
             <div className="project-page">
                 <img src={img} id="bg" alt="landing-image"/>
                 <div className="container-card-project">
-                    <div className="row content-center align-items-center">
-                        <div className="container-fluid d-flex justify-content-center">
-                            <div className="row">
+                    <div className="projects-container">
+                        {data.map(p => {
+                            return (
+                                <>
+                                    <ProjectCard imgsrc={p.image} title={p.title}
+                                                 projectLink={p.route}
+                                                 pageClass="spotify"
+                                                 note={p.note}/>
 
-                                {data.map(p => {
-                                    return (
-                                        <div className="col-md-4">
-                                            <ProjectCard imgsrc={p.image} title={p.title}
-                                                         projectLink={p.route}
-                                                         pageClass="spotify"
-                                                         note={p.note}/>
-                                        </div>
-                                    )
-                                })
-                                }
-                            </div>
-                        </div>
+                                </>
+                            )
+                        })
+                        }
                     </div>
                 </div>
             </div>

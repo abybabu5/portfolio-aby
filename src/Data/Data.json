@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "title": "Spotify Mock up",
+    "title": "Spotify Mock up FE",
     "route": "/spotifyDemo",
     "tools": [
       "GitHub",
@@ -77,7 +77,6 @@
       "Postman",
       "Heroku",
       "ReactJS",
-      "Redux",
       "HTML/CSS",
       "Bootstrap",
       "PHPStorm"
@@ -86,8 +85,8 @@
     "repoUrl": "https://github.com/abybabu5/covid19-dashboardV1-italy",
     "liveUrl": "http://covid19.abybabu.it/",
     "videoLink": "https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2",
-    "text": "COVID19 DASHBOARD-: A simple dashboard where you can see the map and find the data from the regions and provinces in Italy. Made in React using lmao.ninja API to get the world info and exported .json file from the public repo of Dept. of Civil Protection Italy.",
-    "note": "NB: A new version with more features will be available soon."
+    "text": "COVID19 DASHBOARD-: A simple dashboard with the map and graph. Made in React using different APIs to get the world info and exported .json file from the public repo of Dept. of Civil Protection Italy to get the regions and provinces.",
+    "note": "NB: A new version with more features available now. Please click on the liveurl to visit the page. Api update depends on the country."
   }
 ]
 

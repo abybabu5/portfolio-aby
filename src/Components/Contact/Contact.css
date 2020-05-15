@@ -73,6 +73,7 @@
     display: flex;
     align-items: center;
     box-shadow: 2px 2px 2px #34b717;
+    margin-top: 20px;
 }
 .textFont-contact:hover{
     box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25);
@@ -137,6 +138,7 @@
         display: flex;
         align-items: center;
         box-shadow: 2px 2px 2px #34b717;
+        margin-top: 50px;
     }
     .textFont-contact:hover{
         box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25);
