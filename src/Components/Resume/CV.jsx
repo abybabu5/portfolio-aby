@@ -174,7 +174,8 @@ class CV extends Component {
                                 </div>
                                 <p className="semi-bold">I have recently finished MERN Full stack development course
                                     (Batch Oct19) from
-                                    StriveSchool Berlin and presently I am working in the IT field as a translator.</p>
+                                    StriveSchool Berlin and presently I am looking for job as a junior frontend
+                                    developer.</p>
                                 {/*and presently I am working in the IT field as a translator. Before I worked in Health & Safety*/}
                                 {/*management field for different projects in India and in the Emirates.*/}
                             </div>
@@ -184,34 +185,59 @@ class CV extends Component {
                                 </div>
                                 <ul>
                                     <li>
-                                        <div className="date">2016 - Present</div>
+                                        <div className="date">2019 - 2020</div>
                                         <div className="info">
-                                            <p className="semi-bold">Translator @ JigJiga Srl, Milan</p>
-                                            <p className="semi-bold">Frameworks and translation of web applications IOS,
-                                                Android etc.
+                                            <p className="semi-bold"><b>Student @ Strive School</b>
+                                            </p>
+                                            <p className="semi-bold">I have been learning MERN full-stack development
+                                                and during the course, we developed several
+                                                different web applications as a team as well as an individual.
+                                            </p>
+                                            <p>
+                                                <div><b>-Spotify Mock-up</b></div>
+                                                An individual project built using reactjs, where you can listen, search
+                                                for songs/artist/albums/artist
+                                                page & post a review with the rating.
+                                                <div><b>-Linkedin Mock-up</b></div>
+                                                An individual project built using reactjs and redux where you can log in
+                                                / register & create your profile,
+                                                add a post, react on other user's posts, chat with other users, etc.
+                                                <div><b> -Ideal Place to Work</b></div>
+                                                Capstone Team project- App made in reactjs where you can search for a
+                                                cafe, coworking space, etc
+                                                for working purposes. You can rate a place and filter places by fields
+                                                like Google Service, Strong WiFi,
+                                                etc.
+                                                <div><b>-COVID19 Dashboard (a personal project which I am presently
+                                                    working at the moment)</b></div>
+                                                A simple dashboard with data-tables maps and graphs, app made in reactjs
+                                                using different APIs to
+                                                get the world info and exported .json file from the public repo of Dept.
+                                                of Civil Protection Italy to get the
+                                                regions and provinces.
                                             </p>
                                         </div>
                                     </li>
-                                    <li>
-                                        <div className="date">2015 - 2016</div>
-                                        <div className="info">
-                                            <p className="semi-bold">Translator @ DH9 Srls, Rome</p>
-                                            <p className="semi-bold">Frameworks and translation of web applications IOS,
-                                                Android
-                                                etc.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        {/*    <div className="date">2013 - 2014</div>*/}
-                                        {/*    <div className="info">*/}
-                                        {/*        <p className="semi-bold">HSE Officer @ Danway EME, UAE</p>*/}
-                                        {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
-                                        {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
-                                        {/*            unsafe actions.*/}
-                                        {/*            -Correcting unsafe practices at the work site.*/}
-                                        {/*            -Conducting safety Induction to the new workers and training the contractors to conduct*/}
-                                        {/*            the Toolbox*/}
-                                        {/*            talk for their workers in the Worksite.*/}
+                                    {/*<li>*/}
+                                    {/*    <div className="date">2015 - 2016</div>*/}
+                                    {/*    <div className="info">*/}
+                                    {/*        <p className="semi-bold">Translator @ DH9 Srls, Rome</p>*/}
+                                    {/*        <p className="semi-bold">Frameworks and translation of web applications IOS,*/}
+                                    {/*            Android*/}
+                                    {/*            etc.</p>*/}
+                                    {/*    </div>*/}
+                                    {/*</li>*/}
+                                    {/*<li>*/}
+                                    {/*    <div className="date">2013 - 2014</div>*/}
+                                    {/*    <div className="info">*/}
+                                    {/*        <p className="semi-bold">HSE Officer @ Danway EME, UAE</p>*/}
+                                    {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
+                                    {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
+                                    {/*            unsafe actions.*/}
+                                    {/*            -Correcting unsafe practices at the work site.*/}
+                                    {/*            -Conducting safety Induction to the new workers and training the contractors to conduct*/}
+                                    {/*            the Toolbox*/}
+                                    {/*            talk for their workers in the Worksite.*/}
                                         {/*            -Investigations of accidents and dangerous occurrences at the work site.*/}
                                         {/*            -Internal Safety Auditing and assisting external safety auditors.*/}
                                         {/*            -Passing all relevant risk information to Contractors and Designers.*/}
@@ -240,8 +266,8 @@ class CV extends Component {
                                         {/*            construction site management*/}
                                         {/*            -investigations of accidents and dangerous occurrences at the worksite.*/}
                                         {/*        </p>*/}
-                                        {/*    </div>*/}
-                                    </li>
+                                    {/*    </div>*/}
+                                    {/*</li>*/}
                                 </ul>
                             </div>
                             <div className="resume_item resume_education">
