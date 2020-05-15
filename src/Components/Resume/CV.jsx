@@ -194,21 +194,22 @@ class CV extends Component {
                                                 different web applications as a team as well as an individual.
                                             </p>
                                             <p>
-                                                <div><b>-Spotify Mock-up</b></div>
+                                                <div className="bold-title"><b>-Spotify Mock-up</b></div>
                                                 An individual project built using reactjs, where you can listen, search
                                                 for songs/artist/albums/artist
                                                 page & post a review with the rating.
-                                                <div><b>-Linkedin Mock-up</b></div>
+                                                <div className="bold-title"><b>-Linkedin Mock-up</b></div>
                                                 An individual project built using reactjs and redux where you can log in
                                                 / register & create your profile,
                                                 add a post, react on other user's posts, chat with other users, etc.
-                                                <div><b> -Ideal Place to Work</b></div>
+                                                <div className="bold-title"><b> -Ideal Place to Work</b></div>
                                                 Capstone Team project- App made in reactjs where you can search for a
                                                 cafe, coworking space, etc
                                                 for working purposes. You can rate a place and filter places by fields
                                                 like Google Service, Strong WiFi,
                                                 etc.
-                                                <div><b>-COVID19 Dashboard (a personal project which I am presently
+                                                <div className="bold-title"><b>-COVID19 Dashboard (a personal project
+                                                    which I am presently
                                                     working at the moment)</b></div>
                                                 A simple dashboard with data-tables maps and graphs, app made in reactjs
                                                 using different APIs to
