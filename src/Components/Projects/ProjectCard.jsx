@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
     return (
         <div className="project-card-container">
             <div className="row-project content-center align-items-center">
-                <div className="container-card">
+                <div className={"container-card " + props.pageClass}>
                     <div className="card-container-project">
                         <div className="image-project" style={{backgroundColor: "antiquewhite"}}><img
                             className="card-img-top-projects"

@@ -3,6 +3,7 @@
     "id": "01",
     "title": "Spotify Mock up FE",
     "route": "/spotifyDemo",
+    "pageClass": "spotify",
     "tools": [
       "GitHub",
       "Trello",
@@ -25,6 +26,7 @@
     "id": "02",
     "title": "Ideal Place to Work FE",
     "route": "/capstoneDemo",
+    "pageClass": "capstone",
     "tools": [
       "GitHub",
       "Trello",
@@ -47,6 +49,7 @@
     "id": "03",
     "title": "LinkedIn Mock-up FE",
     "route": "/linkedInDemo",
+    "pageClass": "linkedin",
     "tools": [
       "GitHub",
       "Trello",
@@ -70,6 +73,7 @@
     "id": "04",
     "title": "COVID19 Dash Board FE",
     "route": "/Covid19trackerDemo",
+    "pageClass": "covid",
     "tools": [
       "GitHub",
       "Trello",
@@ -86,7 +90,7 @@
     "liveUrl": "http://covid19.abybabu.it/",
     "videoLink": "https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2",
     "text": "COVID19 DASHBOARD-: A simple dashboard with the map and graph. Made in React using different APIs to get the world info and exported .json file from the public repo of Dept. of Civil Protection Italy to get the regions and provinces.",
-    "note": "NB: A new version with more features available now. Please click on the liveurl to visit the page. Api update depends on the country."
+    "note": "NB: Please be aware that rendering can take a while since it was deployed on free hosting for showing purposes."
   }
 ]
 

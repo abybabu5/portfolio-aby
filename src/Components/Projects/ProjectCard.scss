@@ -1,13 +1,25 @@
-.project-card {
+.container-card {
   &.spotify {
     .card-title {
       color: red;
     }
   }
 
-  .undefined {
+  &.undefined {
     .card-title {
       color: pink;
+    }
+  }
+
+  &.capstone {
+    .card-title {
+      color: teal;
+    }
+  }
+
+  &.linkedin {
+    .card-title {
+      color: saddlebrown;
     }
   }
 
@@ -178,11 +190,13 @@
   margin-left: 25px;
   margin-right: 25px;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .project-card-container {
   min-width: 270px;
-  max-width: 400px;
+  max-width: 300px;
   flex: 0 0 25%;
 
   @media only screen and (min-width: 361px) and (max-width: 768px) {
@@ -194,12 +208,20 @@
   }
 
 
-  padding-right: 25px;
+  //padding-right: 25px;
   position: relative;
   justify-content: space-evenly;
 
+  //&:last-child {
+  //  padding-right :0;
+  //}
+}
+
+.spacer-card-project {
+  flex: 1 1 25px;
+
   &:last-child {
-    margin-right: 0;
+    display: none;
   }
 }
 

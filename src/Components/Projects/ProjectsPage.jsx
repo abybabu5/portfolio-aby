@@ -23,9 +23,9 @@ class ProjectsPage extends Component {
                                 <>
                                     <ProjectCard imgsrc={p.image} title={p.title}
                                                  projectLink={p.route}
-                                                 pageClass="spotify"
+                                                 pageClass={p.pageClass}
                                                  note={p.note}/>
-
+                                    <div className="spacer-card-project"/>
                                 </>
                             )
                         })

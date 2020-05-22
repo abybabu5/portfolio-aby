@@ -65,7 +65,7 @@ class CV extends Component {
                                             </div>
                                             <div className="data">
                                                 <Link className="data-web" to="/" target="_blank"
-                                                      style={{textDecoration: "none"}}> http://www.abybabu.it</Link>
+                                                      style={{textDecoration: "none"}}>www.abybabu.it</Link>
                                             </div>
                                         </li>
                                     </ul>
@@ -210,7 +210,7 @@ class CV extends Component {
                                                 etc.
                                                 <div className="bold-title"><b>-COVID19 Dashboard (a personal project
                                                     which I am presently
-                                                    working at the moment)</b></div>
+                                                    working on)</b></div>
                                                 A simple dashboard with data-tables maps and graphs, app made in reactjs
                                                 using different APIs to
                                                 get the world info and exported .json file from the public repo of Dept.
