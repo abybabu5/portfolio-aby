@@ -1,0 +1,163 @@
+//html, body {
+//  --color-bg: #ddd;
+//  --color-text: #1a1e24;
+//  --color-text-subtle: #D76D77;
+//
+//  padding: 0; margin: 0;
+//  background: -webkit-linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+//  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+//  width: 100%;
+//  min-height: 100vh;
+//  display: -webkit-box; display: -ms-flexbox; display: flex;
+//  -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+//  -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+//  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+//}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(54, 53, 53);
+}
+
+#terminal {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  background-color: #000;
+  margin: 150px auto;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+
+}
+
+#terminal #header {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background: lightgray;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#terminal #header span {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+#terminal #header span:nth-child(1) {
+  background-color: red;
+  top: 15px;
+  left: 7px;
+
+}
+
+#terminal #header span:nth-child(2) {
+  background-color: orange;
+  top: 15px;
+  left: 45px;
+
+}
+
+#terminal #header span:nth-child(3) {
+  background-color: rgb(21, 206, 67);
+  top: 15px;
+  left: 84px;
+
+}
+
+#terminal #body p {
+  position: absolute;
+  top: 60px;
+  overflow: hidden;
+}
+
+#terminal #body p {
+  font-family: "lato", sans-serif;
+  color: rgb(65, 228, 106);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+#terminal #body #txt {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  background: #000000;
+  top: 50px;
+  left: 0;
+  animation: type 5s ease-in-out .7 forwards;
+
+}
+
+#terminal #body p span {
+  font-size: 28px;
+  animation: blink .4s ease-in infinite;
+}
+
+.card {
+  display: flex;
+  padding-top: 70px;
+  margin-left: 10px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card .card-artist__type {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.card-left-middle__content img {
+  width: 120px;
+  height: 150px;
+  border-radius: 9999px;
+  transition: all .3s;
+  margin-left: 10px;
+  z-index: 9999;
+}
+
+.card-left-middle__content img:hover {
+  transform: scale(1.15);
+
+}
+
+//animation
+
+@keyframes type {
+  to {
+    left: 400px;
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.intro-text {
+
+  padding-top: 70px;
+  padding-left: 250px;
+}

@@ -90,7 +90,7 @@
     "liveUrl": "http://covid19.abybabu.it/",
     "videoLink": "https://www.loom.com/embed/c3d532b7a42a44c2a3540d92180452b2",
     "text": "COVID19 DASHBOARD-: A simple dashboard with the map and graph. Made in React using different APIs to get the world info and exported .json file from the public repo of Dept. of Civil Protection Italy to get the regions and provinces.",
-    "note": "NB: Please be aware that rendering can take a while since it was deployed on free hosting for showing purposes."
+    "note": "NB: A new version with more features like world map, current status (today's data), graphs etc are available now."
   }
 ]
 

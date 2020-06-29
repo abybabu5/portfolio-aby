@@ -10,6 +10,7 @@ import ProjectsPage from "./Components/Projects/ProjectsPage";
 import img from "./images/24919.jpg";
 import data from "./Data/Data.json"
 import Demo from "./Components/Demo/Demo";
+import LandingTerminal from "./Components/LadingPage/LandingTerminal"
 
 class Main extends Component {
     state = {
@@ -34,7 +35,8 @@ class Main extends Component {
                         <div>
                             <Switch>
                                 <Route exact path="/">
-                                    <Landing/>
+                                    {/*<Landing/>*/}
+                                    <LandingTerminal/>
                                 </Route>
                                 <Route path="/intro">
                                     <Intro/>

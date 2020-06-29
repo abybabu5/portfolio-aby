@@ -18,7 +18,6 @@ class Landing extends Component {
                                 <div className="card">
                                     <div className="card__left">
                                         <div className="card__animated-arrow">
-
                                         </div>
                                         <div className="card-top-left__btn">Aby Babu</div>
                                         <div className="card-left-middle__content"><Link to="/intro"><img

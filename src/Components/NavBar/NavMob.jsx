@@ -33,7 +33,7 @@ class NavMob extends Component {
                                         <Link style={{textDecoration: 'none', color: 'white'}}
                                               className="nav-div-head-mobile"
                                               to="/">
-                                            <div className="header-title-mobile">&lt;MyPortfolio/&gt;</div>
+                                            <div className="header-title-mobile">  &lt;MyPortfolio/&gt;</div>
                                         </Link></li>
                                     <li className="nav-div-mobile nav-div-title-mobile" onClick={this.closeMenu}><Link
                                         style={{textDecoration: 'none'}} to="/cv">
