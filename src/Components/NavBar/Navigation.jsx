@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./Navigation.css"
 import {Link} from "react-router-dom";
+import {FaGithub, FaLinkedinIn} from "react-icons/fa";
 //import {FaBars} from "react-icons/all";
 
 class Navigation extends Component {
@@ -46,8 +47,27 @@ class Navigation extends Component {
                         <div className="nav-cv">Contact</div>
                     </Link>
                 </div>
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="nav-div nav-div-title">
+                    <div className="">
+                        {/* LinkedIn */}
+                        <a href="https://www.linkedin.com/in/aby-babu-4b80a7155/"
+                           rel="noopener noreferrer"
+                           target="_blank">
+                            <div className="icon-svg">
+                                <FaLinkedinIn/>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="">
+                        {/* Github */}
+                        <a href="https://github.com/abybabu5" rel="noopener noreferrer"
+                           target="_blank" style={{textDecoration: 'none'}}>
+                            <div className="icon-svg">
+                                <FaGithub/>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
 
         );
