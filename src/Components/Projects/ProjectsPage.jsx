@@ -1,42 +1,35 @@
 import React, {Component} from 'react';
-import Spotify from "./Spotify";
 import img from "../../images/24919.jpg";
-import spotifyCover from "../../cover-img/spotify-cover.PNG";
-import capstoneCover from "../../cover-img/capstone-cover.PNG"
-import linkedInCover from "../../cover-img/linkedIn-cover.PNG"
-import "./ProjectsPage.css";
-import "./Project.css";
-import Capstone from "./Capstone";
-import LinkedIn from "./LinkedIn";
+// import spotifyCover from "../../../public/cover-img/spotify-cover.PNG";
+// import capstoneCover from "../../../public/cover-img/capstone-cover.PNG";
+// import linkedInCover from "../../../public/cover-img/linkedIn-cover.PNG";
+// import covid19Cover from "../../../public/cover-img/covid19-cover.PNG";
+import "./ProjectCard.scss";
+import "../Demo/Demo.scss";
+import ProjectCard from "./ProjectCard";
+import data from "../../Data/Data.json";
+import {Switch} from "react-router-dom";
 
 
 class ProjectsPage extends Component {
     render() {
         return (
-            <div className="bootstrap-iso">
+            <div className="project-page">
                 <img src={img} id="bg" alt="landing-image"/>
                 <div className="container-card-project">
-                    <div className="row content-center align-items-center">
-                        <div className="container-fluid d-flex justify-content-center">
-                            <div className="row-cols-4">
-                                <div className="col-md-4">
-                                    <Spotify imgsrc={spotifyCover} title="Spotify Mock-up FE"
-                                             text="SPOTIFY Challenge: Spotify Mock-up made in ReactJs using deezer API"/>
-                                </div>
-                                <div className="col-md-4">
-                                    <Capstone imgsrc={capstoneCover} title="Ideal Place to Work FE"
-                                              text="CAPSTONE Team Project: Ideal place to work made in React using google API"/>
-                                </div>
-                                <div className="col-md-4">
-                                    <LinkedIn imgsrc={linkedInCover} title="LinkedIn Mock-up FE"
-                                              text="LINKEDIN Team Project: Mock-up made in React using the API made by the Team"/>
-                                </div>
-                            </div>
-
-                            {/*<div className="col-md-4">*/}
-                            {/*    <ProjectsPage/>*/}
-                            {/*</div>*/}
-                        </div>
+                    <div className="projects-container">
+                        {data.map(p => {
+                            return (
+                                <>
+                                    <ProjectCard imgsrc={p.image} title={p.title}
+                                                 projectLink={p.route}
+                                                 pageClass={p.pageClass}
+                                                 note={p.note}/>
+                                    <div className="spacer-card-project"/>
+                                </>
+                            )
+                        })
+                        }
                     </div>
                 </div>
             </div>

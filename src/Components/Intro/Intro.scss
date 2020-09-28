@@ -1,0 +1,187 @@
+
+* {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.aboutme-container {
+  .aby-photo-container {
+    flex: 0 1 100%;
+    align-self: flex-start;
+    padding-top: 30px;
+    min-width: 200px;
+    padding-right: 20px;
+
+    .aby-foto {
+      border-radius: 10px;
+
+      //width: 100% !important;
+    }
+
+  }
+
+  .container {
+    margin-top: 60px !important;
+
+  }
+
+  .intro-container {
+    margin-top: 50px;
+    margin-left: 96px;
+    margin-right: 96px;
+    @media only screen and (max-width: 768px) {
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-top: 90px;
+    }
+
+    .right-box {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+  .row, .container {
+    display: flex;
+    background-color: transparent;
+
+  }
+
+  .row {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .content-center {
+    margin: auto;
+    justify-content: center;
+
+  }
+
+  .text-banner {
+
+  }
+
+  .textFont-intro {
+    font-family: 'Lato', sans-serif;
+    background-color: antiquewhite;
+    color: black;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 48px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px #34b717;
+    display: flex;
+    align-items: center;
+    margin-top: 20px !important;
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &:hover {
+      box-shadow: 5px 10px 20px 1px rgba(233, 220, 220, 0.25);
+    }
+
+  }
+
+
+  .title {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-decoration-color: black;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .paragraphText {
+    /*padding-bottom: 20px;*/
+    color: black;
+    font-size: 14px !important;
+  }
+
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .about-me-icons {
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+}
+
+//@media only screen and (max-width: 700px) {
+//    .aby-foto {
+//        display: none;
+//        border-radius: 50px;
+//        margin-right: 15px;
+//        width: 100px !important;
+//
+//    }
+//
+//    .container {
+//        border-radius: 5px;
+//        background-color: antiquewhite;
+//        padding: 10px;
+//        border: 5px solid transparent;
+//    }
+//
+//    .top-margin {
+//        margin-top: 50px !important;
+//    }
+//
+//    .row, .container {
+//        display: flex;
+//        background-color: transparent;
+//    }
+//
+//    .row {
+//        width: 12%;
+//        align-items: center;
+//        justify-content: center;
+//        margin: auto;
+//    }
+//
+//    .textFont-intro {
+//        font-family: 'Lato', sans-serif;
+//        background-color: antiquewhite;
+//        color: black;
+//        padding: 30px;
+//        border-radius: 10px;
+//        box-shadow: 2px 2px 2px #34b717;
+//        display: flex;
+//        align-items: center;
+//    }
+//
+//
+//    .title {
+//        font-family: 'Lato', sans-serif;
+//        color: black;
+//        text-decoration-color: black;
+//        font-weight: bold;
+//        font-size: 20px;
+//        margin-bottom: 9px;
+//    }
+//
+//
+//    .paragraphText {
+//        padding-top: 7px;
+//        /*padding-bottom: 20px;*/
+//        color: black;
+//        font-size: 9px;
+//
+//
+//    }
+//}

@@ -5,17 +5,17 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("/images/24919.jpg") !important;
-    background-size: cover !important;
-    background: #051564; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-            to right,
-            #050d35,
-            #0e3f9f,
-            #05507a
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #211b57, #1d77fd, #3a91b4);
-    background-repeat: repeat;
+
+
+    /*background: #051564; !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(*/
+    /*        to right,*/
+    /*        #050d35,*/
+    /*        #0e3f9f,*/
+    /*        #05507a*/
+    /*); !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to right, #211b57, #1d77fd, #3a91b4);*/
+
     font-size: 14px;
     line-height: 22px;
     color: black;
@@ -32,3 +32,12 @@ code {
     monospace;
 }
 
+.main-container {
+    background-image: url("/images/24919.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+}
