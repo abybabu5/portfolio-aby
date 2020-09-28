@@ -172,10 +172,10 @@ class CV extends Component {
                                 <div className="title">
                                     <p className="bold">INTRODUCTION</p>
                                 </div>
-                                <p className="semi-bold">I have recently finished MERN Full stack development course
+                                <p className="semi-bold">Presently Iam working in <b> RetApps Srl</b> as a Frontend
+                                    developer. I have completed MERN Full stack development course
                                     (Batch Oct19) from
-                                    StriveSchool Berlin and presently I am looking for job as a junior frontend
-                                    developer.</p>
+                                    StriveSchool, Berlin.</p>
                                 {/*and presently I am working in the IT field as a translator. Before I worked in Health & Safety*/}
                                 {/*management field for different projects in India and in the Emirates.*/}
                             </div>
@@ -185,37 +185,56 @@ class CV extends Component {
                                 </div>
                                 <ul>
                                     <li>
-                                        <div className="date">2019 - 2020</div>
+                                        <p className="semi-bold"><b>Frontend developer @ RetApps Srl</b>
+                                        </p>
+                                        <div className="date">06/07/2020- present</div>
                                         <div className="info">
-                                            <p className="semi-bold"><b>Student @ Strive School</b>
-                                            </p>
-                                            <p className="semi-bold">I have been learning MERN full-stack development
-                                                and during the course, we developed several
-                                                different web applications as a team as well as an individual.
+
+                                            <p className="semi-bold">Smart commerce sector as ReactJs developer
                                             </p>
                                             <p>
-                                                <div className="bold-title"><b>-Spotify Mock-up</b></div>
-                                                An individual project built using reactjs, where you can listen, search
-                                                for songs/artist/albums/artist
-                                                page & post a review with the rating.
-                                                <div className="bold-title"><b>-Linkedin Mock-up</b></div>
-                                                An individual project built using reactjs and redux where you can log in
-                                                / register & create your profile,
-                                                add a post, react on other user's posts, chat with other users, etc.
-                                                <div className="bold-title"><b> -Ideal Place to Work</b></div>
-                                                Capstone Team project- App made in reactjs where you can search for a
-                                                cafe, coworking space, etc
-                                                for working purposes. You can rate a place and filter places by fields
-                                                like Google Service, Strong WiFi,
-                                                etc.
-                                                <div className="bold-title"><b>-COVID19 Dashboard (a personal project
-                                                    which I am presently
-                                                    working on)</b></div>
-                                                A simple dashboard with data-tables maps and graphs, app made in reactjs
-                                                using different APIs to
-                                                get the world info and exported .json file from the public repo of Dept.
-                                                of Civil Protection Italy to get the
-                                                regions and provinces.
+                                                <div className="resume_item resume_work">
+                                                    <p className="semi-bold"><b>Student @ Strive School</b>
+                                                        <div className="date">2019 - 2020</div>
+                                                    </p>
+                                                    <p className="semi-bold">I have been learning MERN full-stack
+                                                        development
+                                                        and during the course, we developed several
+                                                        different web applications as a team as well as an individual.
+                                                    </p>
+                                                    <p>
+                                                        <div className="bold-title"><b>-Spotify Mock-up</b></div>
+                                                        An individual project built using reactjs, where you can listen,
+                                                        search
+                                                        for songs/artist/albums/artist
+                                                        page & post a review with the rating.
+                                                        <div className="bold-title"><b>-Linkedin Mock-up</b></div>
+                                                        An individual project built using reactjs and redux where you
+                                                        can log in
+                                                        / register & create your profile,
+                                                        add a post, react on other user's posts, chat with other users,
+                                                        etc.
+                                                        <div className="bold-title"><b> -Ideal Place to Work</b></div>
+                                                        Capstone Team project- App made in reactjs where you can search
+                                                        for a
+                                                        cafe, coworking space, etc
+                                                        for working purposes. You can rate a place and filter places by
+                                                        fields
+                                                        like Google Service, Strong WiFi,
+                                                        etc.
+                                                        <div className="bold-title"><b>-COVID19 Dashboard (a personal
+                                                            project
+                                                            which I am presently
+                                                            working on)</b></div>
+                                                        A simple dashboard with data-tables maps and graphs, app made in
+                                                        reactjs
+                                                        using different APIs to
+                                                        get the world info and exported .json file from the public repo
+                                                        of Dept.
+                                                        of Civil Protection Italy to get the
+                                                        regions and provinces.
+                                                    </p>
+                                                </div>
                                             </p>
                                         </div>
                                     </li>
@@ -239,34 +258,34 @@ class CV extends Component {
                                     {/*            -Conducting safety Induction to the new workers and training the contractors to conduct*/}
                                     {/*            the Toolbox*/}
                                     {/*            talk for their workers in the Worksite.*/}
-                                        {/*            -Investigations of accidents and dangerous occurrences at the work site.*/}
-                                        {/*            -Internal Safety Auditing and assisting external safety auditors.*/}
-                                        {/*            -Passing all relevant risk information to Contractors and Designers.*/}
-                                        {/*            -Carried out "Hazard Identification and Risk Assessment (HIRA)" for selected jobs and*/}
-                                        {/*            PTW system.*/}
-                                        {/*            -Conducting Mock drills and training, Check-list preparation.*/}
-                                        {/*            -Participate in daily production meetings to update the Team Safety section with*/}
-                                        {/*            construction site*/}
-                                        {/*            management.*/}
-                                        {/*            -Preparation of daily, weekly, monthly HSE reports & HSE annual report.</p>*/}
-                                        {/*    </div>*/}
-                                        {/*</li>*/}
-                                        {/*<li>*/}
-                                        {/*    <div className="date">2009 - 2013</div>*/}
-                                        {/*    <div className="info">*/}
-                                        {/*        <p className="semi-bold">HSE Officer @ INDUSTRIAL FIRE AND SAFETY SERVICES PVT LTD, Baroda*/}
-                                        {/*            (India) </p>*/}
-                                        {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
-                                        {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
-                                        {/*            unsafe actions.*/}
-                                        {/*            -Correcting unsafe practices in the work site.-Conducting safety Induction to the new*/}
-                                        {/*            workers and*/}
-                                        {/*            training the contractors to conduct the Toolbox talk for their workers in the Worksite.*/}
-                                        {/*            -Preparation of Job safety analysis for selected jobs- JSA*/}
-                                        {/*            -Participate in daily production meetings to update the Team Safety section with*/}
-                                        {/*            construction site management*/}
-                                        {/*            -investigations of accidents and dangerous occurrences at the worksite.*/}
-                                        {/*        </p>*/}
+                                    {/*            -Investigations of accidents and dangerous occurrences at the work site.*/}
+                                    {/*            -Internal Safety Auditing and assisting external safety auditors.*/}
+                                    {/*            -Passing all relevant risk information to Contractors and Designers.*/}
+                                    {/*            -Carried out "Hazard Identification and Risk Assessment (HIRA)" for selected jobs and*/}
+                                    {/*            PTW system.*/}
+                                    {/*            -Conducting Mock drills and training, Check-list preparation.*/}
+                                    {/*            -Participate in daily production meetings to update the Team Safety section with*/}
+                                    {/*            construction site*/}
+                                    {/*            management.*/}
+                                    {/*            -Preparation of daily, weekly, monthly HSE reports & HSE annual report.</p>*/}
+                                    {/*    </div>*/}
+                                    {/*</li>*/}
+                                    {/*<li>*/}
+                                    {/*    <div className="date">2009 - 2013</div>*/}
+                                    {/*    <div className="info">*/}
+                                    {/*        <p className="semi-bold">HSE Officer @ INDUSTRIAL FIRE AND SAFETY SERVICES PVT LTD, Baroda*/}
+                                    {/*            (India) </p>*/}
+                                    {/*        <p className="semi-bold">Advise the Contractors on Safety Measures.*/}
+                                    {/*            -Inspect the worksite for safety contraventions and rectify any unsafe conditions and*/}
+                                    {/*            unsafe actions.*/}
+                                    {/*            -Correcting unsafe practices in the work site.-Conducting safety Induction to the new*/}
+                                    {/*            workers and*/}
+                                    {/*            training the contractors to conduct the Toolbox talk for their workers in the Worksite.*/}
+                                    {/*            -Preparation of Job safety analysis for selected jobs- JSA*/}
+                                    {/*            -Participate in daily production meetings to update the Team Safety section with*/}
+                                    {/*            construction site management*/}
+                                    {/*            -investigations of accidents and dangerous occurrences at the worksite.*/}
+                                    {/*        </p>*/}
                                     {/*    </div>*/}
                                     {/*</li>*/}
                                 </ul>

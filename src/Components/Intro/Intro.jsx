@@ -37,14 +37,12 @@ class Intro extends Component {
                                         organisations
                                         in the
                                         field of <b>Information Technology in Italy</b>. <br/>
-                                        Recently I have finished <b>MERN</b> Full-Stack Development course from <b>Strive
-                                        School Berlin (Batch Oct19).</b> Previously I had the opportunity to work in
-                                        different projects as an <b>Environmental Health and Safety specialist</b> in
-                                        Oil& gas, Manufacturing,
-                                        Industrial Construction and Electromechanical engineering (Shah gas Abu Dhabi,
-                                        Tram- Dubai, Reliance Industries PVT ltd India, and Sterlite Industries PVT ltd
-                                        India)
-                                        and after I moved to Italy I started to work in the IT field.
+                                        I have finished <b>MERN</b> Full-Stack Development course from <b>Strive
+                                        School Berlin (Batch Oct19).</b> Presently I am working in <b><a
+                                        href="https://www.retapps.com/" style={{textDecoration: "none", color: "black"}}
+                                        rel="noopener noreferrer"
+                                        target="_blank"> RetApps Srl</a></b> Milan as
+                                        <b> Frontend Developer- Reactjs. </b>
                                         I offer a broad application of skills across a diverse range of professional
                                         service
                                         functions -
